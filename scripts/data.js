@@ -1,49 +1,42 @@
 class Data{
     constructor(){
-       this.avocado_data=this.get_avocado()
-       this.climate_data=this.get_climate()
-       this.us_states=this.get_us_states()
 
-       this.filtered_avocado_data=[]
-       this.filtered_climate_data=[]
+        const avodata = d3.csv("datasets/avocado_final.csv")
+        const tempData = d3.csv("datasets/state_temp.csv")
+        const stateData = d3.json("datasets/us_states.json")
+        this.dataPromise = Promise.all([avodata,tempData, stateData]).then(res => {
+            let [avodata,tempData, stateData] = res;
+            console.log(res)
+            this.avocado_data = this.get_avocado(avodata)
+            this.climate_data = this.get_climate(tempData)
+            this.us_states= stateData
 
+        })
+        // console.log(this.avocado_data)
 
     }
 
-    get_avocado(){
-        d3.csv("datasets/avocado_final.csv", function(data){
-            var parseTime = d3.time.format("%Y-%m-%d");
-    
+    get_avocado(data){
+        console.log(data)
+        var parseTime = d3.timeParse("%Y-%m-%d");
             data.forEach(element => {
                 element.AveragePrice = parseFloat(element.AveragePrice)
                 element.year = parseInt(element.year);
                 element.month = parseInt(element.month);
-                element.Date = parseTime.parse(element.Date)
+                element.Date = parseTime(element.Date)
                 element.lat = parseFloat(element.lat)
                 element.long = parseFloat(element.long)
             });
             return data;
-            
-
-        })
     }
 
-    get_climate(){
-        d3.csv("datasets/state_temp.csv", function(data){
+    get_climate(data){
             data.forEach(element => {
                 element.year = parseInt(element.year);
                 element.month = parseInt(element.month);
                 element.temp = parseFloat(element.temp);
             });
             return data;
-            
-        })
-    }
-
-    get_us_states(){
-        d3.json("datasets/us_states.json", function(data) {
-            return data;
-        })
     }
 
     filtered_data(user_selection){
