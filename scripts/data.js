@@ -6,7 +6,7 @@ class Data{
         const stateData = d3.json("datasets/us_states.json")
         this.dataPromise = Promise.all([avodata,tempData, stateData]).then(res => {
             let [avodata,tempData, stateData] = res;
-            console.log(res)
+            //console.log(res)
             this.avocado_data = this.get_avocado(avodata)
             this.climate_data = this.get_climate(tempData)
             this.us_states= stateData
@@ -17,7 +17,7 @@ class Data{
     }
 
     get_avocado(data){
-        console.log(data)
+        //console.log(data)
         var parseTime = d3.timeParse("%Y-%m-%d");
             data.forEach(element => {
                 element.AveragePrice = parseFloat(element.AveragePrice)
@@ -40,8 +40,8 @@ class Data{
     }
 
     filtered_data(user_selection){
-        console.log(this.avocado_data)
-        console.log(this.climate_data)
+        //console.log(this.avocado_data)
+        //console.log(this.climate_data)
         this.filtered_avocado_data = this.avocado_data.filter(function (row) {
             return row.year === user_selection.year && row.month == user_selection.month && row.Date.getTime() == user_selection.time.getTime() && row.type == user_selection.type;
         })
