@@ -1,9 +1,14 @@
+var color = d3.scaleLinear();
+color.domain([0,30,60]);
+color.range(["blue","white","red"])
 
-function climateColor(d){
-    var color = d3.scaleLinear();
-    color.domain([0,30,60]);
-    color.range(["blue","white","red"])
-    return color(d)
+var parseTime = d3.timeParse("%Y-%m-%d");
+
+var user_selection={
+    year:2015,
+    month:1,
+    time:parseTime("2015-01-04"),
+    type:"conventional"
 }
 
 chart_data = new Data()
@@ -16,20 +21,10 @@ async function populate_chart(){
 
 }
 
-    /*
-    climateColor(d){
-        console.log(d)
-        var color = d3.scaleLinear();
-        color.domain([0,50,100]);
-        color.range(["blue","white","red"])
-        return color(d)
-    }
-    */
-
     function style(feature) {
         var value=feature.properties.density
         return {
-            fillColor: climateColor(value),
+            fillColor: color(value),
             weight: 2,
             opacity: 1,
             color: 'white',
@@ -84,20 +79,13 @@ async function populate_chart(){
     function updateVis(){
 
         //for now I have passed default value. once we create a slider, we need to pass those values
-        var parseTime = d3.timeParse("%Y-%m-%d");
-        var user_selection={
-            year:2015,
-            month:1,
-            time:parseTime("2015-01-04"),
-            type:"conventional"
-        }
+       
         chart_data.filtered_data(user_selection)
 
         for(var state in chart_data.us_states.features){
             var stateName = chart_data.us_states.features[state].properties.name
             chart_data.us_states.features[state].properties.density=chart_data.filtered_climate_data.filter(obj=>{return obj.state==stateName})[0].temp
         }
-
 
         renderVis()
 
