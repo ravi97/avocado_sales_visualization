@@ -6,18 +6,15 @@ function climateColor(d){
     return color(d)
 }
 
-class Chart{
-    constructor(){
-        this.chart_data = new Data()
-        this.populate_chart()
-    }
+chart_data = new Data()
+populate_chart()
 
-    async populate_chart(){
-        await this.chart_data.dataPromise
-        this.initVis()
-        this.updateVis()
+async function populate_chart(){
+    await this.chart_data.dataPromise
+    this.initVis()
+    this.updateVis()
 
-    }
+}
 
     /*
     climateColor(d){
@@ -29,7 +26,7 @@ class Chart{
     }
     */
 
-    style(feature) {
+    function style(feature) {
         var value=feature.properties.density
         return {
             fillColor: climateColor(value),
@@ -40,8 +37,8 @@ class Chart{
             fillOpacity: 0.7
         };
     }
-    highlightFeature(e) {
-        console.log(e)
+    function highlightFeature(e) {
+        console.log("called")
         var layer = e.target;
       
         layer.setStyle({
@@ -56,22 +53,22 @@ class Chart{
         }
       }
       
-    resetHighlight(e) {
-    this.geojson.resetStyle(e.target);
+    function resetHighlight(e) {
+    geojson.resetStyle(e.target);
     }
       
-    zoomToFeature(e) { this.map.fitBounds(e.target.getBounds()); }
+    function zoomToFeature(e) { map.fitBounds(e.target.getBounds()); }
       
-    onEachFeature(feature, layer) {
+    function onEachFeature(feature, layer) {
     layer.on({
-        mouseover: this.highlightFeature,
-        mouseout: this.resetHighlight,
-        click: this.zoomToFeature
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
     });
     }
 
-    initVis(){
-        this.map = L.map('map').setView([37.8, -96], 4)
+    function initVis(){
+        map = L.map('map').setView([37.8, -96], 4)
 
         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
             attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -80,11 +77,11 @@ class Chart{
             tileSize: 512,
             zoomOffset: -1,
             accessToken: API_KEY,
-        }).addTo(this.map);
+        }).addTo(map);
 
     }
 
-    updateVis(){
+    function updateVis(){
 
         //for now I have passed default value. once we create a slider, we need to pass those values
         var parseTime = d3.timeParse("%Y-%m-%d");
@@ -94,30 +91,26 @@ class Chart{
             time:parseTime("2015-01-04"),
             type:"conventional"
         }
-        this.chart_data.filtered_data(user_selection)
+        chart_data.filtered_data(user_selection)
 
-        for(var state in this.chart_data.us_states.features){
-            var stateName = this.chart_data.us_states.features[state].properties.name
-            this.chart_data.us_states.features[state].properties.density=this.chart_data.filtered_climate_data.filter(obj=>{return obj.state==stateName})[0].temp
+        for(var state in chart_data.us_states.features){
+            var stateName = chart_data.us_states.features[state].properties.name
+            chart_data.us_states.features[state].properties.density=chart_data.filtered_climate_data.filter(obj=>{return obj.state==stateName})[0].temp
         }
 
 
-        this.renderVis()
+        renderVis()
 
     }
 
-    renderVis(){
+    function renderVis(){
         
-        this.geojson=L.geoJson(this.chart_data.us_states, {
-            style: this.style,
-            //onEachFeature: this.onEachFeature
-          }).addTo(this.map);
+        geojson=L.geoJson(chart_data.us_states, {
+            style: style,
+            onEachFeature: onEachFeature
+          }).addTo(map);
 
     }
 
 
-
-}
-
-climate_chart=new Chart()
 
