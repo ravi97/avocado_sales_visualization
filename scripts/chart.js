@@ -93,7 +93,12 @@ function initVis(){
         accessToken: API_KEY,
     }).addTo(map);
 
-    var slider2 = L.control.slider(function(value) {user_selection.time = time[value]; updateVis()}, 
+    var slider2 = L.control.slider(function(value) {
+            user_selection.time = time[value]; 
+            user_selection.month = time[value].getMonth() + 1;
+            user_selection.year = time[value].getFullYear();
+            updateVis()
+        }, 
                     {
                         id:slider2,
                         orientation: 'horizontal', 
