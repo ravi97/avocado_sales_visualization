@@ -6,6 +6,8 @@ var parseTime = d3.timeParse("%Y-%m-%d");
 
 let time;
 
+var formatTime = d3.timeFormat("%b %d %y")
+
 var user_selection={
     year:2015,
     month:1,
@@ -94,14 +96,13 @@ function initVis(){
     var slider2 = L.control.slider(function(value) {user_selection.time = time[value]; updateVis()}, 
                     {
                         id:slider2,
-                        width: 400,
                         orientation: 'horizontal', 
                         collapsed: false, 
                         increment: true, 
                         min: 0,
                         max: 168,
                         value: 0,
-                        getValue: function(value) {return time[value]}
+                        getValue: function(value) {return formatTime(time[value])}
                     }).addTo(map);
 
 }

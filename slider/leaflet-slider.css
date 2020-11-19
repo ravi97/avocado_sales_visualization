@@ -18,6 +18,11 @@ a.leaflet-control-slider-toggle {
     font-size:1.3em;
 }
 
+.leaflet-control-slider-minus{
+  position: absolute;
+  right: 290px;
+}
+
 .leaflet-control-slider p.leaflet-control-slider-value {
     line-height: 26px;
     display: block;
@@ -33,7 +38,7 @@ a.leaflet-control-slider-toggle {
     height: 36px;
     margin: 0px 0px 0px 0px;
     border-right: 1px solid #CCC;
-    width: 35px;
+    width: 80px;
     float :left;
     clear:none;
 }
@@ -53,13 +58,13 @@ a.leaflet-control-slider-toggle {
 }
 
 .leaflet-control-slider.leaflet-control-slider-horizontal .leaflet-slider-container {
-    float :right;
+    float:left;
     clear:none;
-    width: 90%;
     height:36px;
 }
 .leaflet-control-slider.leaflet-control-slider-horizontal input.leaflet-slider {
     height:36px;
+    width: 265px;
 }
 
 .leaflet-control-slider.leaflet-control-slider-vertical input.leaflet-slider{
@@ -87,7 +92,7 @@ a.leaflet-control-slider-toggle {
 }
 
 .leaflet-control-slider.leaflet-control-slider-horizontal .leaflet-slider-container {
-  margin: 0px 10px;
+  margin: 0px 23px;
 }
 
 .leaflet-control-slider.leaflet-control-slider-vertical.leaflet-control-slider-incdec .leaflet-slider-container {
@@ -190,6 +195,7 @@ a.leaflet-control-slider-toggle {
 
 
 .leaflet-control-slider-plus, .leaflet-control-slider-minus{
+    float: left;
     width: 36px;
     height: 36px;
     background-position: 50% 50%;
@@ -213,12 +219,14 @@ a.leaflet-control-slider-toggle {
 .leaflet-control-slider.leaflet-control-slider-expanded .leaflet-control-slider-plus, .leaflet-control-slider.leaflet-control-slider-expanded .leaflet-control-slider-minus{
     display: block;
 }
-.leaflet-control-slider.leaflet-control-slider-horizontal .leaflet-control-slider-plus, .leaflet-control-slider.leaflet-control-slider-horizontal .leaflet-control-slider-minus{
+.leaflet-control-slider.leaflet-control-slider-horizontal .leaflet-control-slider-plus, .leaflet-control-slider.leaflet-control-slider-horizontal{
     float:right;   
 }
 
 .leaflet-control-slider input[type=range]::-moz-focus-outer {
     border: 0;
 }
+
+
 
 
