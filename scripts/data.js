@@ -2,7 +2,7 @@ class Data{
     constructor(){
 
         const avodata = d3.csv("datasets/avocado_final.csv")
-        const tempData = d3.csv("datasets/state_temp.csv")
+        const tempData = d3.csv("datasets/state_temp_precip.csv")
         const stateData = d3.json("datasets/us_states.json")
         this.dataPromise = Promise.all([avodata,tempData, stateData]).then(res => {
             let [avodata,tempData, stateData] = res;
@@ -36,7 +36,9 @@ class Data{
                 element.year = parseInt(element.year);
                 element.month = parseInt(element.month);
                 element.temp = parseFloat(element.temp);
+                element.rainfall = parseFloat(element.rainfall);
             });
+            // console.log(data)
             return data;
     }
 

@@ -1,0 +1,2941 @@
+state,year,month,rainfall
+Alabama,2015,1,4.34
+Alabama,2015,2,4.05
+Alabama,2015,3,4.28
+Alabama,2015,4,7.14
+Alabama,2015,5,4.32
+Alabama,2015,6,3.27
+Alabama,2015,7,4.71
+Alabama,2015,8,4.94
+Alabama,2015,9,2.71
+Alabama,2015,10,2.93
+Alabama,2015,11,6.80
+Alabama,2015,12,11.87
+Alabama,2016,1,4.06
+Alabama,2016,2,5.85
+Alabama,2016,3,5.42
+Alabama,2016,4,5.68
+Alabama,2016,5,2.14
+Alabama,2016,6,3.81
+Alabama,2016,7,4.27
+Alabama,2016,8,4.58
+Alabama,2016,9,1.72
+Alabama,2016,10,0.13
+Alabama,2016,11,2.30
+Alabama,2016,12,5.05
+Alabama,2017,1,9.17
+Alabama,2017,2,3.70
+Alabama,2017,3,4.17
+Alabama,2017,4,4.09
+Alabama,2017,5,7.01
+Alabama,2017,6,10.70
+Alabama,2017,7,5.06
+Alabama,2017,8,6.07
+Alabama,2017,9,3.25
+Alabama,2017,10,6.03
+Alabama,2017,11,1.05
+Alabama,2017,12,3.89
+Alabama,2018,1,2.32
+Alabama,2018,2,7.27
+Alabama,2018,3,4.14
+Alabama,2018,4,5.94
+Alabama,2018,5,5.52
+Alabama,2018,6,4.58
+Alabama,2018,7,4.46
+Alabama,2018,8,5.03
+Alabama,2018,9,6.21
+Alabama,2018,10,2.69
+Alabama,2018,11,6.29
+Alabama,2018,12,9.95
+Alabama,2019,1,6.01
+Alabama,2019,2,6.21
+Alabama,2019,3,3.40
+Alabama,2019,4,6.24
+Alabama,2019,5,3.59
+Alabama,2019,6,4.47
+Alabama,2019,7,4.02
+Alabama,2019,8,4.99
+Alabama,2019,9,0.41
+Alabama,2019,10,7.12
+Alabama,2019,11,3.24
+Alabama,2019,12,6.60
+Arizona,2015,1,1.79
+Arizona,2015,2,0.64
+Arizona,2015,3,1.12
+Arizona,2015,4,0.42
+Arizona,2015,5,1.00
+Arizona,2015,6,0.80
+Arizona,2015,7,1.91
+Arizona,2015,8,2.10
+Arizona,2015,9,1.37
+Arizona,2015,10,1.88
+Arizona,2015,11,0.76
+Arizona,2015,12,0.60
+Arizona,2016,1,1.40
+Arizona,2016,2,0.29
+Arizona,2016,3,0.11
+Arizona,2016,4,0.80
+Arizona,2016,5,0.52
+Arizona,2016,6,0.43
+Arizona,2016,7,1.39
+Arizona,2016,8,2.57
+Arizona,2016,9,1.35
+Arizona,2016,10,0.35
+Arizona,2016,11,0.94
+Arizona,2016,12,2.13
+Arizona,2017,1,2.07
+Arizona,2017,2,1.26
+Arizona,2017,3,0.41
+Arizona,2017,4,0.19
+Arizona,2017,5,0.41
+Arizona,2017,6,0.06
+Arizona,2017,7,2.89
+Arizona,2017,8,1.39
+Arizona,2017,9,0.61
+Arizona,2017,10,0.03
+Arizona,2017,11,0.02
+Arizona,2017,12,0.13
+Arizona,2018,1,0.56
+Arizona,2018,2,1.07
+Arizona,2018,3,0.44
+Arizona,2018,4,0.04
+Arizona,2018,5,0.15
+Arizona,2018,6,0.33
+Arizona,2018,7,2.59
+Arizona,2018,8,2.00
+Arizona,2018,9,0.81
+Arizona,2018,10,2.70
+Arizona,2018,11,0.27
+Arizona,2018,12,0.71
+Arizona,2019,1,1.50
+Arizona,2019,2,2.74
+Arizona,2019,3,1.22
+Arizona,2019,4,0.30
+Arizona,2019,5,0.91
+Arizona,2019,6,0.06
+Arizona,2019,7,0.79
+Arizona,2019,8,0.88
+Arizona,2019,9,1.68
+Arizona,2019,10,0.02
+Arizona,2019,11,2.96
+Arizona,2019,12,1.63
+Arkansas,2015,1,3.49
+Arkansas,2015,2,3.18
+Arkansas,2015,3,8.02
+Arkansas,2015,4,5.75
+Arkansas,2015,5,10.56
+Arkansas,2015,6,3.99
+Arkansas,2015,7,4.92
+Arkansas,2015,8,3.02
+Arkansas,2015,9,1.47
+Arkansas,2015,10,3.75
+Arkansas,2015,11,10.72
+Arkansas,2015,12,8.44
+Arkansas,2016,1,2.02
+Arkansas,2016,2,2.43
+Arkansas,2016,3,9.89
+Arkansas,2016,4,5.80
+Arkansas,2016,5,4.54
+Arkansas,2016,6,3.10
+Arkansas,2016,7,4.82
+Arkansas,2016,8,7.42
+Arkansas,2016,9,1.80
+Arkansas,2016,10,1.58
+Arkansas,2016,11,3.28
+Arkansas,2016,12,3.76
+Arkansas,2017,1,3.02
+Arkansas,2017,2,2.76
+Arkansas,2017,3,4.56
+Arkansas,2017,4,8.74
+Arkansas,2017,5,6.59
+Arkansas,2017,6,4.24
+Arkansas,2017,7,4.72
+Arkansas,2017,8,6.30
+Arkansas,2017,9,1.21
+Arkansas,2017,10,1.82
+Arkansas,2017,11,1.11
+Arkansas,2017,12,5.19
+Arkansas,2018,1,2.70
+Arkansas,2018,2,11.81
+Arkansas,2018,3,5.45
+Arkansas,2018,4,5.06
+Arkansas,2018,5,3.28
+Arkansas,2018,6,2.94
+Arkansas,2018,7,3.24
+Arkansas,2018,8,6.43
+Arkansas,2018,9,5.32
+Arkansas,2018,10,5.22
+Arkansas,2018,11,5.11
+Arkansas,2018,12,7.76
+Arkansas,2019,1,4.51
+Arkansas,2019,2,7.76
+Arkansas,2019,3,3.98
+Arkansas,2019,4,8.25
+Arkansas,2019,5,9.18
+Arkansas,2019,6,6.12
+Arkansas,2019,7,4.83
+Arkansas,2019,8,4.51
+Arkansas,2019,9,1.98
+Arkansas,2019,10,7.56
+Arkansas,2019,11,4.66
+Arkansas,2019,12,2.31
+California,2015,1,0.65
+California,2015,2,2.86
+California,2015,3,0.78
+California,2015,4,1.06
+California,2015,5,0.93
+California,2015,6,0.23
+California,2015,7,0.66
+California,2015,8,0.08
+California,2015,9,0.33
+California,2015,10,0.90
+California,2015,11,1.87
+California,2015,12,4.69
+California,2016,1,6.39
+California,2016,2,1.21
+California,2016,3,4.88
+California,2016,4,1.52
+California,2016,5,0.77
+California,2016,6,0.27
+California,2016,7,0.06
+California,2016,8,0.06
+California,2016,9,0.10
+California,2016,10,3.82
+California,2016,11,2.16
+California,2016,12,4.49
+California,2017,1,9.92
+California,2017,2,7.94
+California,2017,3,2.45
+California,2017,4,2.76
+California,2017,5,0.43
+California,2017,6,0.26
+California,2017,7,0.09
+California,2017,8,0.27
+California,2017,9,0.43
+California,2017,10,0.34
+California,2017,11,2.98
+California,2017,12,0.30
+California,2018,1,3.33
+California,2018,2,0.57
+California,2018,3,5.12
+California,2018,4,2.13
+California,2018,5,0.66
+California,2018,6,0.07
+California,2018,7,0.22
+California,2018,8,0.04
+California,2018,9,0.06
+California,2018,10,0.70
+California,2018,11,2.81
+California,2018,12,2.38
+California,2019,1,5.23
+California,2019,2,8.57
+California,2019,3,4.05
+California,2019,4,1.22
+California,2019,5,2.50
+California,2019,6,0.09
+California,2019,7,0.08
+California,2019,8,0.13
+California,2019,9,0.61
+California,2019,10,0.16
+California,2019,11,1.61
+California,2019,12,4.87
+Colorado,2015,1,0.65
+Colorado,2015,2,1.35
+Colorado,2015,3,0.86
+Colorado,2015,4,1.88
+Colorado,2015,5,5.30
+Colorado,2015,6,1.91
+Colorado,2015,7,2.37
+Colorado,2015,8,1.67
+Colorado,2015,9,0.76
+Colorado,2015,10,1.82
+Colorado,2015,11,1.69
+Colorado,2015,12,1.47
+Colorado,2016,1,1.02
+Colorado,2016,2,0.85
+Colorado,2016,3,1.28
+Colorado,2016,4,2.74
+Colorado,2016,5,2.07
+Colorado,2016,6,1.35
+Colorado,2016,7,1.64
+Colorado,2016,8,2.07
+Colorado,2016,9,1.00
+Colorado,2016,10,0.49
+Colorado,2016,11,0.92
+Colorado,2016,12,1.65
+Colorado,2017,1,2.29
+Colorado,2017,2,1.00
+Colorado,2017,3,1.19
+Colorado,2017,4,2.17
+Colorado,2017,5,2.82
+Colorado,2017,6,0.69
+Colorado,2017,7,3.05
+Colorado,2017,8,1.87
+Colorado,2017,9,1.98
+Colorado,2017,10,0.93
+Colorado,2017,11,0.52
+Colorado,2017,12,0.40
+Colorado,2018,1,0.81
+Colorado,2018,2,1.13
+Colorado,2018,3,0.90
+Colorado,2018,4,1.37
+Colorado,2018,5,1.54
+Colorado,2018,6,0.98
+Colorado,2018,7,2.11
+Colorado,2018,8,1.45
+Colorado,2018,9,0.66
+Colorado,2018,10,2.39
+Colorado,2018,11,0.87
+Colorado,2018,12,0.75
+Colorado,2019,1,1.38
+Colorado,2019,2,1.57
+Colorado,2019,3,2.78
+Colorado,2019,4,1.44
+Colorado,2019,5,2.84
+Colorado,2019,6,1.78
+Colorado,2019,7,1.59
+Colorado,2019,8,1.47
+Colorado,2019,9,0.71
+Colorado,2019,10,0.96
+Colorado,2019,11,1.10
+Colorado,2019,12,1.26
+Connecticut,2015,1,3.47
+Connecticut,2015,2,2.01
+Connecticut,2015,3,3.05
+Connecticut,2015,4,2.74
+Connecticut,2015,5,1.21
+Connecticut,2015,6,6.35
+Connecticut,2015,7,2.81
+Connecticut,2015,8,2.14
+Connecticut,2015,9,3.62
+Connecticut,2015,10,3.31
+Connecticut,2015,11,2.23
+Connecticut,2015,12,4.14
+Connecticut,2016,1,2.14
+Connecticut,2016,2,4.94
+Connecticut,2016,3,2.16
+Connecticut,2016,4,2.86
+Connecticut,2016,5,3.33
+Connecticut,2016,6,1.78
+Connecticut,2016,7,3.32
+Connecticut,2016,8,3.70
+Connecticut,2016,9,1.92
+Connecticut,2016,10,3.88
+Connecticut,2016,11,3.24
+Connecticut,2016,12,3.46
+Connecticut,2017,1,3.56
+Connecticut,2017,2,2.14
+Connecticut,2017,3,3.33
+Connecticut,2017,4,4.71
+Connecticut,2017,5,5.35
+Connecticut,2017,6,3.54
+Connecticut,2017,7,4.38
+Connecticut,2017,8,2.62
+Connecticut,2017,9,2.30
+Connecticut,2017,10,8.26
+Connecticut,2017,11,1.62
+Connecticut,2017,12,2.29
+Connecticut,2018,1,3.86
+Connecticut,2018,2,5.28
+Connecticut,2018,3,3.47
+Connecticut,2018,4,5.39
+Connecticut,2018,5,2.67
+Connecticut,2018,6,3.79
+Connecticut,2018,7,5.32
+Connecticut,2018,8,5.68
+Connecticut,2018,9,8.56
+Connecticut,2018,10,4.99
+Connecticut,2018,11,8.09
+Connecticut,2018,12,5.06
+Connecticut,2019,1,5.90
+Connecticut,2019,2,3.01
+Connecticut,2019,3,2.76
+Connecticut,2019,4,7.32
+Connecticut,2019,5,4.82
+Connecticut,2019,6,3.42
+Connecticut,2019,7,4.20
+Connecticut,2019,8,3.96
+Connecticut,2019,9,1.86
+Connecticut,2019,10,7.19
+Connecticut,2019,11,2.87
+Connecticut,2019,12,6.60
+Delaware,2015,1,4.96
+Delaware,2015,2,2.32
+Delaware,2015,3,4.53
+Delaware,2015,4,3.13
+Delaware,2015,5,1.50
+Delaware,2015,6,9.01
+Delaware,2015,7,3.33
+Delaware,2015,8,2.81
+Delaware,2015,9,3.20
+Delaware,2015,10,3.84
+Delaware,2015,11,3.02
+Delaware,2015,12,4.62
+Delaware,2016,1,2.67
+Delaware,2016,2,3.79
+Delaware,2016,3,1.73
+Delaware,2016,4,2.73
+Delaware,2016,5,5.88
+Delaware,2016,6,3.72
+Delaware,2016,7,5.53
+Delaware,2016,8,3.03
+Delaware,2016,9,9.98
+Delaware,2016,10,2.87
+Delaware,2016,11,0.79
+Delaware,2016,12,2.95
+Delaware,2017,1,3.00
+Delaware,2017,2,1.24
+Delaware,2017,3,4.46
+Delaware,2017,4,2.63
+Delaware,2017,5,5.68
+Delaware,2017,6,2.32
+Delaware,2017,7,8.04
+Delaware,2017,8,7.91
+Delaware,2017,9,2.57
+Delaware,2017,10,3.59
+Delaware,2017,11,2.04
+Delaware,2017,12,1.05
+Delaware,2018,1,2.98
+Delaware,2018,2,4.97
+Delaware,2018,3,4.09
+Delaware,2018,4,3.40
+Delaware,2018,5,6.99
+Delaware,2018,6,3.97
+Delaware,2018,7,5.77
+Delaware,2018,8,4.53
+Delaware,2018,9,6.61
+Delaware,2018,10,5.04
+Delaware,2018,11,6.85
+Delaware,2018,12,4.82
+Delaware,2019,1,3.45
+Delaware,2019,2,3.45
+Delaware,2019,3,3.63
+Delaware,2019,4,3.58
+Delaware,2019,5,4.50
+Delaware,2019,6,5.18
+Delaware,2019,7,3.47
+Delaware,2019,8,3.20
+Delaware,2019,9,1.33
+Delaware,2019,10,4.18
+Delaware,2019,11,1.37
+Delaware,2019,12,4.12
+Florida,2015,1,2.84
+Florida,2015,2,3.23
+Florida,2015,3,2.00
+Florida,2015,4,4.28
+Florida,2015,5,2.39
+Florida,2015,6,6.05
+Florida,2015,7,7.83
+Florida,2015,8,8.44
+Florida,2015,9,6.67
+Florida,2015,10,1.84
+Florida,2015,11,3.80
+Florida,2015,12,3.49
+Florida,2016,1,6.05
+Florida,2016,2,3.25
+Florida,2016,3,3.43
+Florida,2016,4,2.93
+Florida,2016,5,4.62
+Florida,2016,6,7.11
+Florida,2016,7,4.87
+Florida,2016,8,8.12
+Florida,2016,9,7.43
+Florida,2016,10,2.67
+Florida,2016,11,0.21
+Florida,2016,12,2.72
+Florida,2017,1,3.71
+Florida,2017,2,1.88
+Florida,2017,3,1.24
+Florida,2017,4,2.23
+Florida,2017,5,3.84
+Florida,2017,6,12.26
+Florida,2017,7,7.57
+Florida,2017,8,8.52
+Florida,2017,9,8.87
+Florida,2017,10,5.19
+Florida,2017,11,1.64
+Florida,2017,12,1.68
+Florida,2018,1,2.96
+Florida,2018,2,2.40
+Florida,2018,3,2.15
+Florida,2018,4,3.74
+Florida,2018,5,9.31
+Florida,2018,6,6.59
+Florida,2018,7,8.40
+Florida,2018,8,7.61
+Florida,2018,9,4.91
+Florida,2018,10,2.12
+Florida,2018,11,3.15
+Florida,2018,12,7.18
+Florida,2019,1,3.98
+Florida,2019,2,1.98
+Florida,2019,3,1.94
+Florida,2019,4,3.12
+Florida,2019,5,3.41
+Florida,2019,6,7.99
+Florida,2019,7,7.53
+Florida,2019,8,8.79
+Florida,2019,9,1.73
+Florida,2019,10,5.16
+Florida,2019,11,1.83
+Florida,2019,12,4.64
+Georgia,2015,1,3.64
+Georgia,2015,2,4.49
+Georgia,2015,3,2.81
+Georgia,2015,4,6.20
+Georgia,2015,5,2.17
+Georgia,2015,6,4.25
+Georgia,2015,7,4.65
+Georgia,2015,8,5.78
+Georgia,2015,9,3.75
+Georgia,2015,10,3.23
+Georgia,2015,11,6.28
+Georgia,2015,12,8.49
+Georgia,2016,1,3.78
+Georgia,2016,2,4.87
+Georgia,2016,3,3.03
+Georgia,2016,4,4.16
+Georgia,2016,5,2.78
+Georgia,2016,6,4.02
+Georgia,2016,7,2.75
+Georgia,2016,8,4.00
+Georgia,2016,9,3.49
+Georgia,2016,10,1.39
+Georgia,2016,11,0.95
+Georgia,2016,12,5.68
+Georgia,2017,1,7.72
+Georgia,2017,2,2.09
+Georgia,2017,3,2.11
+Georgia,2017,4,3.74
+Georgia,2017,5,5.60
+Georgia,2017,6,6.36
+Georgia,2017,7,4.86
+Georgia,2017,8,4.58
+Georgia,2017,9,5.01
+Georgia,2017,10,3.54
+Georgia,2017,11,1.00
+Georgia,2017,12,3.19
+Georgia,2018,1,2.82
+Georgia,2018,2,4.29
+Georgia,2018,3,3.55
+Georgia,2018,4,4.16
+Georgia,2018,5,6.67
+Georgia,2018,6,5.06
+Georgia,2018,7,6.26
+Georgia,2018,8,5.54
+Georgia,2018,9,2.75
+Georgia,2018,10,3.83
+Georgia,2018,11,6.24
+Georgia,2018,12,9.63
+Georgia,2019,1,4.94
+Georgia,2019,2,3.26
+Georgia,2019,3,2.95
+Georgia,2019,4,3.93
+Georgia,2019,5,2.30
+Georgia,2019,6,5.95
+Georgia,2019,7,3.93
+Georgia,2019,8,4.53
+Georgia,2019,9,0.89
+Georgia,2019,10,5.49
+Georgia,2019,11,3.18
+Georgia,2019,12,6.54
+Idaho,2015,1,2.06
+Idaho,2015,2,1.86
+Idaho,2015,3,1.51
+Idaho,2015,4,1.23
+Idaho,2015,5,2.89
+Idaho,2015,6,0.77
+Idaho,2015,7,1.37
+Idaho,2015,8,0.76
+Idaho,2015,9,1.31
+Idaho,2015,10,1.69
+Idaho,2015,11,2.51
+Idaho,2015,12,4.56
+Idaho,2016,1,2.66
+Idaho,2016,2,1.65
+Idaho,2016,3,3.58
+Idaho,2016,4,1.65
+Idaho,2016,5,2.21
+Idaho,2016,6,0.80
+Idaho,2016,7,0.72
+Idaho,2016,8,0.15
+Idaho,2016,9,1.82
+Idaho,2016,10,4.54
+Idaho,2016,11,1.44
+Idaho,2016,12,3.66
+Idaho,2017,1,3.33
+Idaho,2017,2,4.91
+Idaho,2017,3,4.14
+Idaho,2017,4,2.95
+Idaho,2017,5,1.60
+Idaho,2017,6,1.69
+Idaho,2017,7,0.33
+Idaho,2017,8,0.35
+Idaho,2017,9,2.09
+Idaho,2017,10,1.65
+Idaho,2017,11,3.55
+Idaho,2017,12,2.24
+Idaho,2018,1,2.78
+Idaho,2018,2,2.33
+Idaho,2018,3,2.75
+Idaho,2018,4,2.54
+Idaho,2018,5,2.47
+Idaho,2018,6,1.64
+Idaho,2018,7,0.12
+Idaho,2018,8,0.53
+Idaho,2018,9,0.16
+Idaho,2018,10,1.94
+Idaho,2018,11,2.38
+Idaho,2018,12,2.24
+Idaho,2019,1,2.22
+Idaho,2019,2,4.78
+Idaho,2019,3,1.40
+Idaho,2019,4,3.20
+Idaho,2019,5,2.83
+Idaho,2019,6,1.09
+Idaho,2019,7,0.55
+Idaho,2019,8,0.59
+Idaho,2019,9,2.10
+Idaho,2019,10,1.57
+Idaho,2019,11,0.82
+Idaho,2019,12,2.26
+Illinois,2015,1,1.50
+Illinois,2015,2,1.43
+Illinois,2015,3,2.35
+Illinois,2015,4,3.41
+Illinois,2015,5,5.39
+Illinois,2015,6,9.44
+Illinois,2015,7,5.21
+Illinois,2015,8,3.02
+Illinois,2015,9,3.42
+Illinois,2015,10,1.44
+Illinois,2015,11,5.52
+Illinois,2015,12,6.67
+Illinois,2016,1,0.86
+Illinois,2016,2,1.31
+Illinois,2016,3,3.35
+Illinois,2016,4,3.30
+Illinois,2016,5,4.34
+Illinois,2016,6,3.13
+Illinois,2016,7,6.90
+Illinois,2016,8,6.77
+Illinois,2016,9,3.42
+Illinois,2016,10,2.38
+Illinois,2016,11,2.59
+Illinois,2016,12,1.40
+Illinois,2017,1,2.13
+Illinois,2017,2,0.73
+Illinois,2017,3,3.56
+Illinois,2017,4,6.88
+Illinois,2017,5,5.17
+Illinois,2017,6,3.19
+Illinois,2017,7,4.81
+Illinois,2017,8,2.40
+Illinois,2017,9,0.83
+Illinois,2017,10,5.00
+Illinois,2017,11,2.26
+Illinois,2017,12,0.84
+Illinois,2018,1,1.30
+Illinois,2018,2,4.88
+Illinois,2018,3,3.91
+Illinois,2018,4,2.42
+Illinois,2018,5,3.80
+Illinois,2018,6,6.29
+Illinois,2018,7,3.44
+Illinois,2018,8,4.91
+Illinois,2018,9,4.90
+Illinois,2018,10,3.68
+Illinois,2018,11,3.01
+Illinois,2018,12,3.25
+Illinois,2019,1,3.31
+Illinois,2019,2,3.21
+Illinois,2019,3,4.06
+Illinois,2019,4,4.58
+Illinois,2019,5,8.16
+Illinois,2019,6,5.16
+Illinois,2019,7,3.05
+Illinois,2019,8,4.05
+Illinois,2019,9,5.00
+Illinois,2019,10,5.01
+Illinois,2019,11,2.40
+Illinois,2019,12,1.88
+Indiana,2015,1,2.11
+Indiana,2015,2,1.40
+Indiana,2015,3,3.54
+Indiana,2015,4,4.79
+Indiana,2015,5,3.98
+Indiana,2015,6,9.07
+Indiana,2015,7,6.23
+Indiana,2015,8,2.57
+Indiana,2015,9,2.39
+Indiana,2015,10,2.42
+Indiana,2015,11,3.57
+Indiana,2015,12,5.44
+Indiana,2016,1,1.34
+Indiana,2016,2,2.78
+Indiana,2016,3,4.46
+Indiana,2016,4,4.17
+Indiana,2016,5,3.53
+Indiana,2016,6,4.28
+Indiana,2016,7,5.13
+Indiana,2016,8,6.48
+Indiana,2016,9,3.66
+Indiana,2016,10,2.61
+Indiana,2016,11,2.58
+Indiana,2016,12,2.36
+Indiana,2017,1,3.68
+Indiana,2017,2,1.35
+Indiana,2017,3,4.04
+Indiana,2017,4,4.83
+Indiana,2017,5,6.90
+Indiana,2017,6,4.37
+Indiana,2017,7,6.07
+Indiana,2017,8,2.26
+Indiana,2017,9,2.03
+Indiana,2017,10,4.32
+Indiana,2017,11,4.43
+Indiana,2017,12,1.33
+Indiana,2018,1,2.05
+Indiana,2018,2,5.91
+Indiana,2018,3,3.92
+Indiana,2018,4,3.59
+Indiana,2018,5,3.42
+Indiana,2018,6,6.55
+Indiana,2018,7,3.37
+Indiana,2018,8,5.33
+Indiana,2018,9,5.40
+Indiana,2018,10,2.82
+Indiana,2018,11,4.32
+Indiana,2018,12,3.35
+Indiana,2019,1,3.50
+Indiana,2019,2,4.45
+Indiana,2019,3,4.18
+Indiana,2019,4,5.62
+Indiana,2019,5,6.02
+Indiana,2019,6,6.12
+Indiana,2019,7,3.61
+Indiana,2019,8,3.51
+Indiana,2019,9,2.26
+Indiana,2019,10,4.29
+Indiana,2019,11,2.70
+Indiana,2019,12,3.26
+Iowa,2015,1,0.52
+Iowa,2015,2,1.11
+Iowa,2015,3,0.56
+Iowa,2015,4,3.37
+Iowa,2015,5,5.06
+Iowa,2015,6,6.38
+Iowa,2015,7,5.51
+Iowa,2015,8,5.29
+Iowa,2015,9,4.18
+Iowa,2015,10,1.76
+Iowa,2015,11,4.08
+Iowa,2015,12,4.71
+Iowa,2016,1,0.59
+Iowa,2016,2,0.88
+Iowa,2016,3,2.28
+Iowa,2016,4,3.19
+Iowa,2016,5,4.36
+Iowa,2016,6,3.70
+Iowa,2016,7,5.92
+Iowa,2016,8,6.14
+Iowa,2016,9,6.12
+Iowa,2016,10,2.01
+Iowa,2016,11,1.39
+Iowa,2016,12,1.52
+Iowa,2017,1,1.56
+Iowa,2017,2,0.99
+Iowa,2017,3,2.57
+Iowa,2017,4,3.80
+Iowa,2017,5,4.80
+Iowa,2017,6,3.50
+Iowa,2017,7,2.94
+Iowa,2017,8,3.83
+Iowa,2017,9,2.31
+Iowa,2017,10,5.26
+Iowa,2017,11,0.41
+Iowa,2017,12,0.39
+Iowa,2018,1,1.02
+Iowa,2018,2,1.54
+Iowa,2018,3,2.28
+Iowa,2018,4,1.54
+Iowa,2018,5,4.70
+Iowa,2018,6,7.55
+Iowa,2018,7,3.39
+Iowa,2018,8,6.42
+Iowa,2018,9,8.10
+Iowa,2018,10,4.63
+Iowa,2018,11,1.81
+Iowa,2018,12,2.10
+Iowa,2019,1,1.28
+Iowa,2019,2,2.34
+Iowa,2019,3,2.19
+Iowa,2019,4,3.03
+Iowa,2019,5,8.21
+Iowa,2019,6,3.91
+Iowa,2019,7,3.38
+Iowa,2019,8,3.53
+Iowa,2019,9,6.21
+Iowa,2019,10,4.78
+Iowa,2019,11,1.49
+Iowa,2019,12,1.28
+Kansas,2015,1,0.37
+Kansas,2015,2,0.83
+Kansas,2015,3,0.49
+Kansas,2015,4,2.76
+Kansas,2015,5,8.28
+Kansas,2015,6,3.34
+Kansas,2015,7,4.93
+Kansas,2015,8,2.95
+Kansas,2015,9,1.58
+Kansas,2015,10,1.79
+Kansas,2015,11,3.10
+Kansas,2015,12,2.36
+Kansas,2016,1,0.48
+Kansas,2016,2,0.55
+Kansas,2016,3,0.77
+Kansas,2016,4,5.34
+Kansas,2016,5,4.58
+Kansas,2016,6,2.30
+Kansas,2016,7,5.05
+Kansas,2016,8,4.90
+Kansas,2016,9,4.11
+Kansas,2016,10,1.44
+Kansas,2016,11,0.47
+Kansas,2016,12,0.69
+Kansas,2017,1,1.56
+Kansas,2017,2,0.24
+Kansas,2017,3,2.79
+Kansas,2017,4,5.07
+Kansas,2017,5,4.83
+Kansas,2017,6,3.20
+Kansas,2017,7,2.39
+Kansas,2017,8,3.56
+Kansas,2017,9,2.39
+Kansas,2017,10,2.73
+Kansas,2017,11,0.16
+Kansas,2017,12,0.11
+Kansas,2018,1,0.39
+Kansas,2018,2,0.60
+Kansas,2018,3,1.02
+Kansas,2018,4,1.21
+Kansas,2018,5,4.10
+Kansas,2018,6,3.82
+Kansas,2018,7,4.19
+Kansas,2018,8,4.33
+Kansas,2018,9,3.33
+Kansas,2018,10,5.86
+Kansas,2018,11,0.81
+Kansas,2018,12,2.19
+Kansas,2019,1,1.03
+Kansas,2019,2,1.02
+Kansas,2019,3,2.12
+Kansas,2019,4,1.67
+Kansas,2019,5,10.51
+Kansas,2019,6,4.45
+Kansas,2019,7,2.32
+Kansas,2019,8,7.00
+Kansas,2019,9,2.02
+Kansas,2019,10,1.95
+Kansas,2019,11,0.65
+Kansas,2019,12,1.28
+Kentucky,2015,1,1.97
+Kentucky,2015,2,3.26
+Kentucky,2015,3,6.34
+Kentucky,2015,4,8.28
+Kentucky,2015,5,2.67
+Kentucky,2015,6,5.47
+Kentucky,2015,7,9.37
+Kentucky,2015,8,3.19
+Kentucky,2015,9,2.89
+Kentucky,2015,10,3.96
+Kentucky,2015,11,4.39
+Kentucky,2015,12,6.52
+Kentucky,2016,1,1.88
+Kentucky,2016,2,4.97
+Kentucky,2016,3,4.22
+Kentucky,2016,4,3.64
+Kentucky,2016,5,6.06
+Kentucky,2016,6,3.74
+Kentucky,2016,7,8.39
+Kentucky,2016,8,5.00
+Kentucky,2016,9,2.13
+Kentucky,2016,10,1.05
+Kentucky,2016,11,2.07
+Kentucky,2016,12,6.04
+Kentucky,2017,1,4.25
+Kentucky,2017,2,2.00
+Kentucky,2017,3,4.58
+Kentucky,2017,4,4.48
+Kentucky,2017,5,6.10
+Kentucky,2017,6,4.96
+Kentucky,2017,7,4.61
+Kentucky,2017,8,4.38
+Kentucky,2017,9,4.45
+Kentucky,2017,10,5.24
+Kentucky,2017,11,2.29
+Kentucky,2017,12,2.92
+Kentucky,2018,1,2.47
+Kentucky,2018,2,8.99
+Kentucky,2018,3,5.18
+Kentucky,2018,4,4.45
+Kentucky,2018,5,4.88
+Kentucky,2018,6,6.16
+Kentucky,2018,7,4.27
+Kentucky,2018,8,4.80
+Kentucky,2018,9,8.06
+Kentucky,2018,10,3.07
+Kentucky,2018,11,5.82
+Kentucky,2018,12,5.59
+Kentucky,2019,1,4.73
+Kentucky,2019,2,9.39
+Kentucky,2019,3,3.68
+Kentucky,2019,4,4.94
+Kentucky,2019,5,4.43
+Kentucky,2019,6,8.10
+Kentucky,2019,7,5.24
+Kentucky,2019,8,3.46
+Kentucky,2019,9,0.22
+Kentucky,2019,10,6.34
+Kentucky,2019,11,4.69
+Kentucky,2019,12,6.10
+Louisiana,2015,1,5.86
+Louisiana,2015,2,3.03
+Louisiana,2015,3,5.85
+Louisiana,2015,4,8.19
+Louisiana,2015,5,8.24
+Louisiana,2015,6,5.42
+Louisiana,2015,7,3.00
+Louisiana,2015,8,2.66
+Louisiana,2015,9,2.76
+Louisiana,2015,10,7.52
+Louisiana,2015,11,9.09
+Louisiana,2015,12,5.69
+Louisiana,2016,1,4.28
+Louisiana,2016,2,3.24
+Louisiana,2016,3,10.60
+Louisiana,2016,4,6.51
+Louisiana,2016,5,5.72
+Louisiana,2016,6,6.03
+Louisiana,2016,7,4.83
+Louisiana,2016,8,13.02
+Louisiana,2016,9,3.18
+Louisiana,2016,10,0.42
+Louisiana,2016,11,2.95
+Louisiana,2016,12,6.30
+Louisiana,2017,1,6.63
+Louisiana,2017,2,2.33
+Louisiana,2017,3,3.64
+Louisiana,2017,4,5.58
+Louisiana,2017,5,9.14
+Louisiana,2017,6,8.99
+Louisiana,2017,7,4.76
+Louisiana,2017,8,12.94
+Louisiana,2017,9,0.88
+Louisiana,2017,10,2.61
+Louisiana,2017,11,1.58
+Louisiana,2017,12,4.98
+Louisiana,2018,1,4.70
+Louisiana,2018,2,8.22
+Louisiana,2018,3,4.88
+Louisiana,2018,4,4.78
+Louisiana,2018,5,2.07
+Louisiana,2018,6,3.61
+Louisiana,2018,7,5.10
+Louisiana,2018,8,4.47
+Louisiana,2018,9,7.61
+Louisiana,2018,10,5.24
+Louisiana,2018,11,6.98
+Louisiana,2018,12,8.73
+Louisiana,2019,1,5.71
+Louisiana,2019,2,4.47
+Louisiana,2019,3,2.01
+Louisiana,2019,4,8.39
+Louisiana,2019,5,8.17
+Louisiana,2019,6,6.38
+Louisiana,2019,7,7.38
+Louisiana,2019,8,4.96
+Louisiana,2019,9,1.79
+Louisiana,2019,10,7.96
+Louisiana,2019,11,1.68
+Louisiana,2019,12,2.97
+Maine,2015,1,3.17
+Maine,2015,2,1.74
+Maine,2015,3,1.78
+Maine,2015,4,3.08
+Maine,2015,5,2.80
+Maine,2015,6,5.79
+Maine,2015,7,3.61
+Maine,2015,8,3.90
+Maine,2015,9,4.82
+Maine,2015,10,4.73
+Maine,2015,11,2.43
+Maine,2015,12,5.31
+Maine,2016,1,2.50
+Maine,2016,2,4.74
+Maine,2016,3,3.74
+Maine,2016,4,2.53
+Maine,2016,5,2.56
+Maine,2016,6,3.41
+Maine,2016,7,3.78
+Maine,2016,8,4.15
+Maine,2016,9,1.58
+Maine,2016,10,3.98
+Maine,2016,11,3.82
+Maine,2016,12,4.57
+Maine,2017,1,3.83
+Maine,2017,2,3.11
+Maine,2017,3,2.69
+Maine,2017,4,4.11
+Maine,2017,5,5.67
+Maine,2017,6,3.73
+Maine,2017,7,2.84
+Maine,2017,8,2.45
+Maine,2017,9,3.08
+Maine,2017,10,7.17
+Maine,2017,11,2.77
+Maine,2017,12,3.87
+Maine,2018,1,4.78
+Maine,2018,2,3.02
+Maine,2018,3,2.95
+Maine,2018,4,4.65
+Maine,2018,5,1.92
+Maine,2018,6,3.69
+Maine,2018,7,4.06
+Maine,2018,8,3.78
+Maine,2018,9,3.15
+Maine,2018,10,4.48
+Maine,2018,11,6.18
+Maine,2018,12,3.79
+Maine,2019,1,5.25
+Maine,2019,2,2.87
+Maine,2019,3,2.19
+Maine,2019,4,5.37
+Maine,2019,5,4.49
+Maine,2019,6,4.69
+Maine,2019,7,3.31
+Maine,2019,8,4.80
+Maine,2019,9,3.46
+Maine,2019,10,5.73
+Maine,2019,11,4.08
+Maine,2019,12,3.75
+Maryland,2015,1,3.79
+Maryland,2015,2,2.03
+Maryland,2015,3,4.26
+Maryland,2015,4,3.63
+Maryland,2015,5,2.46
+Maryland,2015,6,9.39
+Maryland,2015,7,3.93
+Maryland,2015,8,2.61
+Maryland,2015,9,3.86
+Maryland,2015,10,3.71
+Maryland,2015,11,2.62
+Maryland,2015,12,4.57
+Maryland,2016,1,3.00
+Maryland,2016,2,4.04
+Maryland,2016,3,1.77
+Maryland,2016,4,2.13
+Maryland,2016,5,5.93
+Maryland,2016,6,4.17
+Maryland,2016,7,4.82
+Maryland,2016,8,2.78
+Maryland,2016,9,6.59
+Maryland,2016,10,2.22
+Maryland,2016,11,1.00
+Maryland,2016,12,3.21
+Maryland,2017,1,3.14
+Maryland,2017,2,1.12
+Maryland,2017,3,3.73
+Maryland,2017,4,3.22
+Maryland,2017,5,5.85
+Maryland,2017,6,2.11
+Maryland,2017,7,7.76
+Maryland,2017,8,5.57
+Maryland,2017,9,2.01
+Maryland,2017,10,3.79
+Maryland,2017,11,1.96
+Maryland,2017,12,0.95
+Maryland,2018,1,2.40
+Maryland,2018,2,4.73
+Maryland,2018,3,2.78
+Maryland,2018,4,3.75
+Maryland,2018,5,7.61
+Maryland,2018,6,5.10
+Maryland,2018,7,8.20
+Maryland,2018,8,4.95
+Maryland,2018,9,9.14
+Maryland,2018,10,4.04
+Maryland,2018,11,6.95
+Maryland,2018,12,4.97
+Maryland,2019,1,3.26
+Maryland,2019,2,3.61
+Maryland,2019,3,4.07
+Maryland,2019,4,3.04
+Maryland,2019,5,5.19
+Maryland,2019,6,4.23
+Maryland,2019,7,4.91
+Maryland,2019,8,3.12
+Maryland,2019,9,0.71
+Maryland,2019,10,5.26
+Maryland,2019,11,1.71
+Maryland,2019,12,3.60
+Massachusetts,2015,1,4.03
+Massachusetts,2015,2,2.99
+Massachusetts,2015,3,2.84
+Massachusetts,2015,4,2.55
+Massachusetts,2015,5,0.96
+Massachusetts,2015,6,6.57
+Massachusetts,2015,7,3.15
+Massachusetts,2015,8,2.95
+Massachusetts,2015,9,4.19
+Massachusetts,2015,10,3.86
+Massachusetts,2015,11,2.48
+Massachusetts,2015,12,4.82
+Massachusetts,2016,1,2.48
+Massachusetts,2016,2,4.69
+Massachusetts,2016,3,3.04
+Massachusetts,2016,4,2.94
+Massachusetts,2016,5,2.98
+Massachusetts,2016,6,1.77
+Massachusetts,2016,7,2.27
+Massachusetts,2016,8,3.18
+Massachusetts,2016,9,2.36
+Massachusetts,2016,10,4.91
+Massachusetts,2016,11,2.58
+Massachusetts,2016,12,3.63
+Massachusetts,2017,1,4.03
+Massachusetts,2017,2,2.68
+Massachusetts,2017,3,3.21
+Massachusetts,2017,4,5.51
+Massachusetts,2017,5,5.78
+Massachusetts,2017,6,4.45
+Massachusetts,2017,7,3.47
+Massachusetts,2017,8,2.89
+Massachusetts,2017,9,3.42
+Massachusetts,2017,10,6.94
+Massachusetts,2017,11,1.82
+Massachusetts,2017,12,2.62
+Massachusetts,2018,1,4.50
+Massachusetts,2018,2,4.88
+Massachusetts,2018,3,4.45
+Massachusetts,2018,4,4.99
+Massachusetts,2018,5,2.05
+Massachusetts,2018,6,4.05
+Massachusetts,2018,7,4.65
+Massachusetts,2018,8,6.24
+Massachusetts,2018,9,7.60
+Massachusetts,2018,10,4.92
+Massachusetts,2018,11,8.77
+Massachusetts,2018,12,3.93
+Massachusetts,2019,1,5.30
+Massachusetts,2019,2,3.21
+Massachusetts,2019,3,2.51
+Massachusetts,2019,4,6.76
+Massachusetts,2019,5,3.70
+Massachusetts,2019,6,4.35
+Massachusetts,2019,7,4.56
+Massachusetts,2019,8,3.83
+Massachusetts,2019,9,1.89
+Massachusetts,2019,10,6.28
+Massachusetts,2019,11,3.32
+Massachusetts,2019,12,7.03
+Michigan,2015,1,1.28
+Michigan,2015,2,0.97
+Michigan,2015,3,0.87
+Michigan,2015,4,2.46
+Michigan,2015,5,4.14
+Michigan,2015,6,4.06
+Michigan,2015,7,2.49
+Michigan,2015,8,3.31
+Michigan,2015,9,2.91
+Michigan,2015,10,2.46
+Michigan,2015,11,3.06
+Michigan,2015,12,3.73
+Michigan,2016,1,1.73
+Michigan,2016,2,1.87
+Michigan,2016,3,3.65
+Michigan,2016,4,2.80
+Michigan,2016,5,2.63
+Michigan,2016,6,2.46
+Michigan,2016,7,3.92
+Michigan,2016,8,5.04
+Michigan,2016,9,3.96
+Michigan,2016,10,3.46
+Michigan,2016,11,2.04
+Michigan,2016,12,2.30
+Michigan,2017,1,2.78
+Michigan,2017,2,2.02
+Michigan,2017,3,2.94
+Michigan,2017,4,4.39
+Michigan,2017,5,3.36
+Michigan,2017,6,4.72
+Michigan,2017,7,2.74
+Michigan,2017,8,3.50
+Michigan,2017,9,1.57
+Michigan,2017,10,6.63
+Michigan,2017,11,2.74
+Michigan,2017,12,1.88
+Michigan,2018,1,1.74
+Michigan,2018,2,2.96
+Michigan,2018,3,1.13
+Michigan,2018,4,3.00
+Michigan,2018,5,4.26
+Michigan,2018,6,2.95
+Michigan,2018,7,2.62
+Michigan,2018,8,4.47
+Michigan,2018,9,3.54
+Michigan,2018,10,5.14
+Michigan,2018,11,2.53
+Michigan,2018,12,1.83
+Michigan,2019,1,2.29
+Michigan,2019,2,2.93
+Michigan,2019,3,1.81
+Michigan,2019,4,3.65
+Michigan,2019,5,4.73
+Michigan,2019,6,4.13
+Michigan,2019,7,2.99
+Michigan,2019,8,2.46
+Michigan,2019,9,5.19
+Michigan,2019,10,5.54
+Michigan,2019,11,2.69
+Michigan,2019,12,3.42
+Minnesota,2015,1,0.49
+Minnesota,2015,2,0.47
+Minnesota,2015,3,0.60
+Minnesota,2015,4,1.39
+Minnesota,2015,5,5.30
+Minnesota,2015,6,3.80
+Minnesota,2015,7,4.07
+Minnesota,2015,8,3.89
+Minnesota,2015,9,2.71
+Minnesota,2015,10,2.15
+Minnesota,2015,11,2.68
+Minnesota,2015,12,1.91
+Minnesota,2016,1,0.54
+Minnesota,2016,2,0.74
+Minnesota,2016,3,1.96
+Minnesota,2016,4,2.15
+Minnesota,2016,5,2.53
+Minnesota,2016,6,4.15
+Minnesota,2016,7,6.07
+Minnesota,2016,8,5.31
+Minnesota,2016,9,4.62
+Minnesota,2016,10,2.17
+Minnesota,2016,11,1.72
+Minnesota,2016,12,1.58
+Minnesota,2017,1,0.98
+Minnesota,2017,2,0.97
+Minnesota,2017,3,0.81
+Minnesota,2017,4,2.50
+Minnesota,2017,5,3.21
+Minnesota,2017,6,3.76
+Minnesota,2017,7,2.64
+Minnesota,2017,8,5.23
+Minnesota,2017,9,3.72
+Minnesota,2017,10,3.26
+Minnesota,2017,11,0.51
+Minnesota,2017,12,0.71
+Minnesota,2018,1,0.57
+Minnesota,2018,2,1.02
+Minnesota,2018,3,1.17
+Minnesota,2018,4,1.13
+Minnesota,2018,5,2.79
+Minnesota,2018,6,5.72
+Minnesota,2018,7,4.30
+Minnesota,2018,8,3.11
+Minnesota,2018,9,4.32
+Minnesota,2018,10,3.57
+Minnesota,2018,11,1.05
+Minnesota,2018,12,1.33
+Minnesota,2019,1,0.65
+Minnesota,2019,2,1.72
+Minnesota,2019,3,1.66
+Minnesota,2019,4,2.71
+Minnesota,2019,5,4.11
+Minnesota,2019,6,3.55
+Minnesota,2019,7,4.62
+Minnesota,2019,8,3.31
+Minnesota,2019,9,6.12
+Minnesota,2019,10,4.22
+Minnesota,2019,11,1.17
+Minnesota,2019,12,1.82
+Mississippi,2015,1,4.70
+Mississippi,2015,2,4.09
+Mississippi,2015,3,6.40
+Mississippi,2015,4,6.09
+Mississippi,2015,5,6.18
+Mississippi,2015,6,4.05
+Mississippi,2015,7,4.40
+Mississippi,2015,8,3.14
+Mississippi,2015,9,1.58
+Mississippi,2015,10,5.26
+Mississippi,2015,11,7.45
+Mississippi,2015,12,7.23
+Mississippi,2016,1,3.60
+Mississippi,2016,2,5.41
+Mississippi,2016,3,10.83
+Mississippi,2016,4,5.71
+Mississippi,2016,5,2.52
+Mississippi,2016,6,3.71
+Mississippi,2016,7,4.90
+Mississippi,2016,8,5.79
+Mississippi,2016,9,1.80
+Mississippi,2016,10,0.55
+Mississippi,2016,11,3.29
+Mississippi,2016,12,5.02
+Mississippi,2017,1,6.70
+Mississippi,2017,2,2.83
+Mississippi,2017,3,4.10
+Mississippi,2017,4,5.57
+Mississippi,2017,5,6.65
+Mississippi,2017,6,9.39
+Mississippi,2017,7,4.83
+Mississippi,2017,8,6.92
+Mississippi,2017,9,2.64
+Mississippi,2017,10,2.94
+Mississippi,2017,11,1.32
+Mississippi,2017,12,5.04
+Mississippi,2018,1,3.66
+Mississippi,2018,2,10.15
+Mississippi,2018,3,5.57
+Mississippi,2018,4,6.61
+Mississippi,2018,5,3.58
+Mississippi,2018,6,3.87
+Mississippi,2018,7,4.61
+Mississippi,2018,8,4.58
+Mississippi,2018,9,6.60
+Mississippi,2018,10,2.54
+Mississippi,2018,11,6.52
+Mississippi,2018,12,8.52
+Mississippi,2019,1,6.17
+Mississippi,2019,2,7.72
+Mississippi,2019,3,3.32
+Mississippi,2019,4,8.73
+Mississippi,2019,5,5.97
+Mississippi,2019,6,5.24
+Mississippi,2019,7,6.79
+Mississippi,2019,8,5.31
+Mississippi,2019,9,0.41
+Mississippi,2019,10,10.22
+Mississippi,2019,11,2.71
+Mississippi,2019,12,5.47
+Missouri,2015,1,1.19
+Missouri,2015,2,1.70
+Missouri,2015,3,3.24
+Missouri,2015,4,3.53
+Missouri,2015,5,7.30
+Missouri,2015,6,7.36
+Missouri,2015,7,7.93
+Missouri,2015,8,3.96
+Missouri,2015,9,2.18
+Missouri,2015,10,1.56
+Missouri,2015,11,7.90
+Missouri,2015,12,7.67
+Missouri,2016,1,0.90
+Missouri,2016,2,1.02
+Missouri,2016,3,2.99
+Missouri,2016,4,3.71
+Missouri,2016,5,5.78
+Missouri,2016,6,2.43
+Missouri,2016,7,6.56
+Missouri,2016,8,6.61
+Missouri,2016,9,4.39
+Missouri,2016,10,2.29
+Missouri,2016,11,1.49
+Missouri,2016,12,1.27
+Missouri,2017,1,1.84
+Missouri,2017,2,0.59
+Missouri,2017,3,3.90
+Missouri,2017,4,9.57
+Missouri,2017,5,5.97
+Missouri,2017,6,4.32
+Missouri,2017,7,3.39
+Missouri,2017,8,5.15
+Missouri,2017,9,1.02
+Missouri,2017,10,3.78
+Missouri,2017,11,0.91
+Missouri,2017,12,1.01
+Missouri,2018,1,1.64
+Missouri,2018,2,4.89
+Missouri,2018,3,3.78
+Missouri,2018,4,2.03
+Missouri,2018,5,4.18
+Missouri,2018,6,3.70
+Missouri,2018,7,2.49
+Missouri,2018,8,5.66
+Missouri,2018,9,3.52
+Missouri,2018,10,4.68
+Missouri,2018,11,2.73
+Missouri,2018,12,3.70
+Missouri,2019,1,3.04
+Missouri,2019,2,3.61
+Missouri,2019,3,4.20
+Missouri,2019,4,3.48
+Missouri,2019,5,10.30
+Missouri,2019,6,5.73
+Missouri,2019,7,4.46
+Missouri,2019,8,6.16
+Missouri,2019,9,3.29
+Missouri,2019,10,5.00
+Missouri,2019,11,2.87
+Missouri,2019,12,1.68
+Montana,2015,1,1.18
+Montana,2015,2,0.90
+Montana,2015,3,0.99
+Montana,2015,4,1.08
+Montana,2015,5,2.43
+Montana,2015,6,1.77
+Montana,2015,7,1.88
+Montana,2015,8,1.01
+Montana,2015,9,1.29
+Montana,2015,10,1.40
+Montana,2015,11,1.34
+Montana,2015,12,1.61
+Montana,2016,1,0.91
+Montana,2016,2,0.85
+Montana,2016,3,1.37
+Montana,2016,4,2.33
+Montana,2016,5,3.10
+Montana,2016,6,1.53
+Montana,2016,7,2.07
+Montana,2016,8,1.04
+Montana,2016,9,2.47
+Montana,2016,10,3.36
+Montana,2016,11,0.65
+Montana,2016,12,1.49
+Montana,2017,1,0.91
+Montana,2017,2,1.72
+Montana,2017,3,1.84
+Montana,2017,4,2.13
+Montana,2017,5,1.54
+Montana,2017,6,1.72
+Montana,2017,7,0.43
+Montana,2017,8,0.37
+Montana,2017,9,2.10
+Montana,2017,10,1.16
+Montana,2017,11,1.70
+Montana,2017,12,1.81
+Montana,2018,1,1.16
+Montana,2018,2,2.12
+Montana,2018,3,1.44
+Montana,2018,4,2.17
+Montana,2018,5,2.80
+Montana,2018,6,3.62
+Montana,2018,7,0.76
+Montana,2018,8,1.05
+Montana,2018,9,1.09
+Montana,2018,10,1.34
+Montana,2018,11,1.44
+Montana,2018,12,0.99
+Montana,2019,1,1.04
+Montana,2019,2,1.92
+Montana,2019,3,0.63
+Montana,2019,4,2.18
+Montana,2019,5,2.67
+Montana,2019,6,2.56
+Montana,2019,7,2.03
+Montana,2019,8,1.53
+Montana,2019,9,3.58
+Montana,2019,10,1.36
+Montana,2019,11,1.12
+Montana,2019,12,0.79
+Nebraska,2015,1,0.21
+Nebraska,2015,2,0.68
+Nebraska,2015,3,0.24
+Nebraska,2015,4,2.64
+Nebraska,2015,5,5.89
+Nebraska,2015,6,4.73
+Nebraska,2015,7,3.33
+Nebraska,2015,8,2.83
+Nebraska,2015,9,2.54
+Nebraska,2015,10,1.43
+Nebraska,2015,11,1.95
+Nebraska,2015,12,1.60
+Nebraska,2016,1,0.40
+Nebraska,2016,2,0.79
+Nebraska,2016,3,1.16
+Nebraska,2016,4,5.20
+Nebraska,2016,5,4.39
+Nebraska,2016,6,2.20
+Nebraska,2016,7,3.55
+Nebraska,2016,8,2.57
+Nebraska,2016,9,2.21
+Nebraska,2016,10,1.16
+Nebraska,2016,11,0.86
+Nebraska,2016,12,0.82
+Nebraska,2017,1,1.01
+Nebraska,2017,2,0.72
+Nebraska,2017,3,1.55
+Nebraska,2017,4,2.56
+Nebraska,2017,5,4.71
+Nebraska,2017,6,1.53
+Nebraska,2017,7,2.64
+Nebraska,2017,8,4.31
+Nebraska,2017,9,2.72
+Nebraska,2017,10,2.96
+Nebraska,2017,11,0.23
+Nebraska,2017,12,0.40
+Nebraska,2018,1,0.72
+Nebraska,2018,2,0.67
+Nebraska,2018,3,1.14
+Nebraska,2018,4,1.55
+Nebraska,2018,5,4.66
+Nebraska,2018,6,5.26
+Nebraska,2018,7,4.66
+Nebraska,2018,8,2.44
+Nebraska,2018,9,2.74
+Nebraska,2018,10,2.54
+Nebraska,2018,11,0.87
+Nebraska,2018,12,1.97
+Nebraska,2019,1,0.25
+Nebraska,2019,2,0.74
+Nebraska,2019,3,2.81
+Nebraska,2019,4,1.75
+Nebraska,2019,5,6.59
+Nebraska,2019,6,3.74
+Nebraska,2019,7,4.17
+Nebraska,2019,8,5.14
+Nebraska,2019,9,2.49
+Nebraska,2019,10,1.59
+Nebraska,2019,11,0.96
+Nebraska,2019,12,1.15
+Nevada,2015,1,0.50
+Nevada,2015,2,0.58
+Nevada,2015,3,0.38
+Nevada,2015,4,0.70
+Nevada,2015,5,2.11
+Nevada,2015,6,0.56
+Nevada,2015,7,1.22
+Nevada,2015,8,0.49
+Nevada,2015,9,0.34
+Nevada,2015,10,1.83
+Nevada,2015,11,1.29
+Nevada,2015,12,1.34
+Nevada,2016,1,1.72
+Nevada,2016,2,0.48
+Nevada,2016,3,1.01
+Nevada,2016,4,1.58
+Nevada,2016,5,1.00
+Nevada,2016,6,0.43
+Nevada,2016,7,0.21
+Nevada,2016,8,0.32
+Nevada,2016,9,0.60
+Nevada,2016,10,1.36
+Nevada,2016,11,0.48
+Nevada,2016,12,1.96
+Nevada,2017,1,2.88
+Nevada,2017,2,1.56
+Nevada,2017,3,1.11
+Nevada,2017,4,1.12
+Nevada,2017,5,0.53
+Nevada,2017,6,0.53
+Nevada,2017,7,0.61
+Nevada,2017,8,0.63
+Nevada,2017,9,0.96
+Nevada,2017,10,0.17
+Nevada,2017,11,0.88
+Nevada,2017,12,0.19
+Nevada,2018,1,0.96
+Nevada,2018,2,0.42
+Nevada,2018,3,1.62
+Nevada,2018,4,0.86
+Nevada,2018,5,1.48
+Nevada,2018,6,0.13
+Nevada,2018,7,0.70
+Nevada,2018,8,0.22
+Nevada,2018,9,0.04
+Nevada,2018,10,1.09
+Nevada,2018,11,0.81
+Nevada,2018,12,0.94
+Nevada,2019,1,1.32
+Nevada,2019,2,2.41
+Nevada,2019,3,2.10
+Nevada,2019,4,1.24
+Nevada,2019,5,2.61
+Nevada,2019,6,0.32
+Nevada,2019,7,0.26
+Nevada,2019,8,0.19
+Nevada,2019,9,0.80
+Nevada,2019,10,0.12
+Nevada,2019,11,0.98
+Nevada,2019,12,1.46
+New Hampshire,2015,1,3.35
+New Hampshire,2015,2,2.42
+New Hampshire,2015,3,1.65
+New Hampshire,2015,4,2.80
+New Hampshire,2015,5,1.95
+New Hampshire,2015,6,7.34
+New Hampshire,2015,7,3.71
+New Hampshire,2015,8,3.59
+New Hampshire,2015,9,5.36
+New Hampshire,2015,10,4.05
+New Hampshire,2015,11,2.36
+New Hampshire,2015,12,5.43
+New Hampshire,2016,1,1.97
+New Hampshire,2016,2,4.72
+New Hampshire,2016,3,3.46
+New Hampshire,2016,4,2.53
+New Hampshire,2016,5,2.43
+New Hampshire,2016,6,2.89
+New Hampshire,2016,7,3.46
+New Hampshire,2016,8,4.17
+New Hampshire,2016,9,2.11
+New Hampshire,2016,10,4.60
+New Hampshire,2016,11,3.04
+New Hampshire,2016,12,4.19
+New Hampshire,2017,1,2.82
+New Hampshire,2017,2,3.12
+New Hampshire,2017,3,3.11
+New Hampshire,2017,4,4.48
+New Hampshire,2017,5,6.55
+New Hampshire,2017,6,5.24
+New Hampshire,2017,7,3.89
+New Hampshire,2017,8,3.66
+New Hampshire,2017,9,2.96
+New Hampshire,2017,10,7.83
+New Hampshire,2017,11,2.04
+New Hampshire,2017,12,3.47
+New Hampshire,2018,1,4.14
+New Hampshire,2018,2,3.43
+New Hampshire,2018,3,2.76
+New Hampshire,2018,4,4.66
+New Hampshire,2018,5,1.65
+New Hampshire,2018,6,3.75
+New Hampshire,2018,7,4.96
+New Hampshire,2018,8,5.86
+New Hampshire,2018,9,4.80
+New Hampshire,2018,10,4.54
+New Hampshire,2018,11,7.75
+New Hampshire,2018,12,3.50
+New Hampshire,2019,1,5.41
+New Hampshire,2019,2,2.93
+New Hampshire,2019,3,1.73
+New Hampshire,2019,4,5.73
+New Hampshire,2019,5,4.54
+New Hampshire,2019,6,5.30
+New Hampshire,2019,7,3.67
+New Hampshire,2019,8,4.03
+New Hampshire,2019,9,2.34
+New Hampshire,2019,10,5.83
+New Hampshire,2019,11,3.70
+New Hampshire,2019,12,5.04
+New Jersey,2015,1,4.43
+New Jersey,2015,2,2.18
+New Jersey,2015,3,4.55
+New Jersey,2015,4,2.67
+New Jersey,2015,5,1.21
+New Jersey,2015,6,8.12
+New Jersey,2015,7,3.68
+New Jersey,2015,8,2.26
+New Jersey,2015,9,3.60
+New Jersey,2015,10,4.02
+New Jersey,2015,11,2.30
+New Jersey,2015,12,4.84
+New Jersey,2016,1,3.19
+New Jersey,2016,2,4.08
+New Jersey,2016,3,1.87
+New Jersey,2016,4,2.26
+New Jersey,2016,5,4.79
+New Jersey,2016,6,2.40
+New Jersey,2016,7,6.97
+New Jersey,2016,8,2.08
+New Jersey,2016,9,3.45
+New Jersey,2016,10,2.80
+New Jersey,2016,11,2.43
+New Jersey,2016,12,3.27
+New Jersey,2017,1,3.71
+New Jersey,2017,2,1.64
+New Jersey,2017,3,4.06
+New Jersey,2017,4,3.82
+New Jersey,2017,5,6.51
+New Jersey,2017,6,3.32
+New Jersey,2017,7,6.29
+New Jersey,2017,8,5.17
+New Jersey,2017,9,2.27
+New Jersey,2017,10,4.97
+New Jersey,2017,11,1.70
+New Jersey,2017,12,1.46
+New Jersey,2018,1,2.72
+New Jersey,2018,2,6.08
+New Jersey,2018,3,4.64
+New Jersey,2018,4,4.17
+New Jersey,2018,5,5.80
+New Jersey,2018,6,3.30
+New Jersey,2018,7,5.91
+New Jersey,2018,8,5.56
+New Jersey,2018,9,7.57
+New Jersey,2018,10,4.46
+New Jersey,2018,11,8.65
+New Jersey,2018,12,5.90
+New Jersey,2019,1,4.49
+New Jersey,2019,2,3.26
+New Jersey,2019,3,3.84
+New Jersey,2019,4,3.98
+New Jersey,2019,5,6.76
+New Jersey,2019,6,5.18
+New Jersey,2019,7,6.14
+New Jersey,2019,8,3.75
+New Jersey,2019,9,1.24
+New Jersey,2019,10,5.79
+New Jersey,2019,11,1.94
+New Jersey,2019,12,5.44
+New Mexico,2015,1,1.41
+New Mexico,2015,2,0.72
+New Mexico,2015,3,0.71
+New Mexico,2015,4,0.74
+New Mexico,2015,5,2.54
+New Mexico,2015,6,1.57
+New Mexico,2015,7,3.70
+New Mexico,2015,8,2.05
+New Mexico,2015,9,1.10
+New Mexico,2015,10,2.89
+New Mexico,2015,11,0.85
+New Mexico,2015,12,1.05
+New Mexico,2016,1,0.52
+New Mexico,2016,2,0.27
+New Mexico,2016,3,0.08
+New Mexico,2016,4,0.98
+New Mexico,2016,5,0.98
+New Mexico,2016,6,1.05
+New Mexico,2016,7,1.25
+New Mexico,2016,8,3.21
+New Mexico,2016,9,1.83
+New Mexico,2016,10,0.32
+New Mexico,2016,11,1.34
+New Mexico,2016,12,1.11
+New Mexico,2017,1,1.71
+New Mexico,2017,2,0.61
+New Mexico,2017,3,0.48
+New Mexico,2017,4,0.99
+New Mexico,2017,5,0.73
+New Mexico,2017,6,0.94
+New Mexico,2017,7,2.65
+New Mexico,2017,8,2.98
+New Mexico,2017,9,2.42
+New Mexico,2017,10,1.07
+New Mexico,2017,11,0.11
+New Mexico,2017,12,0.11
+New Mexico,2018,1,0.16
+New Mexico,2018,2,0.74
+New Mexico,2018,3,0.27
+New Mexico,2018,4,0.15
+New Mexico,2018,5,0.47
+New Mexico,2018,6,0.87
+New Mexico,2018,7,2.43
+New Mexico,2018,8,1.94
+New Mexico,2018,9,1.81
+New Mexico,2018,10,2.75
+New Mexico,2018,11,0.22
+New Mexico,2018,12,0.91
+New Mexico,2019,1,0.55
+New Mexico,2019,2,0.61
+New Mexico,2019,3,1.03
+New Mexico,2019,4,0.83
+New Mexico,2019,5,1.00
+New Mexico,2019,6,0.86
+New Mexico,2019,7,1.73
+New Mexico,2019,8,1.54
+New Mexico,2019,9,1.50
+New Mexico,2019,10,1.20
+New Mexico,2019,11,1.78
+New Mexico,2019,12,0.74
+New York,2015,1,2.34
+New York,2015,2,2.00
+New York,2015,3,1.61
+New York,2015,4,3.02
+New York,2015,5,2.75
+New York,2015,6,7.69
+New York,2015,7,3.60
+New York,2015,8,3.07
+New York,2015,9,4.75
+New York,2015,10,3.70
+New York,2015,11,2.05
+New York,2015,12,4.06
+New York,2016,1,1.73
+New York,2016,2,4.36
+New York,2016,3,2.13
+New York,2016,4,2.56
+New York,2016,5,2.53
+New York,2016,6,2.87
+New York,2016,7,3.40
+New York,2016,8,4.54
+New York,2016,9,2.49
+New York,2016,10,5.43
+New York,2016,11,2.66
+New York,2016,12,3.47
+New York,2017,1,3.40
+New York,2017,2,3.00
+New York,2017,3,3.44
+New York,2017,4,4.85
+New York,2017,5,5.85
+New York,2017,6,4.85
+New York,2017,7,5.24
+New York,2017,8,3.46
+New York,2017,9,2.42
+New York,2017,10,5.55
+New York,2017,11,2.76
+New York,2017,12,2.56
+New York,2018,1,3.45
+New York,2018,2,3.18
+New York,2018,3,3.00
+New York,2018,4,3.86
+New York,2018,5,2.76
+New York,2018,6,3.28
+New York,2018,7,4.62
+New York,2018,8,5.36
+New York,2018,9,5.13
+New York,2018,10,4.73
+New York,2018,11,5.94
+New York,2018,12,3.27
+New York,2019,1,4.43
+New York,2019,2,2.72
+New York,2019,3,1.95
+New York,2019,4,4.35
+New York,2019,5,5.33
+New York,2019,6,5.01
+New York,2019,7,3.67
+New York,2019,8,3.91
+New York,2019,9,2.81
+New York,2019,10,6.60
+New York,2019,11,3.44
+New York,2019,12,4.01
+North Carolina,2015,1,3.95
+North Carolina,2015,2,3.50
+North Carolina,2015,3,3.43
+North Carolina,2015,4,4.35
+North Carolina,2015,5,2.62
+North Carolina,2015,6,5.20
+North Carolina,2015,7,4.38
+North Carolina,2015,8,4.00
+North Carolina,2015,9,5.31
+North Carolina,2015,10,7.07
+North Carolina,2015,11,7.20
+North Carolina,2015,12,7.31
+North Carolina,2016,1,2.80
+North Carolina,2016,2,5.81
+North Carolina,2016,3,2.14
+North Carolina,2016,4,2.78
+North Carolina,2016,5,5.57
+North Carolina,2016,6,4.32
+North Carolina,2016,7,5.18
+North Carolina,2016,8,4.49
+North Carolina,2016,9,7.59
+North Carolina,2016,10,5.63
+North Carolina,2016,11,1.11
+North Carolina,2016,12,3.19
+North Carolina,2017,1,3.96
+North Carolina,2017,2,1.19
+North Carolina,2017,3,3.64
+North Carolina,2017,4,6.50
+North Carolina,2017,5,5.95
+North Carolina,2017,6,4.70
+North Carolina,2017,7,4.49
+North Carolina,2017,8,5.15
+North Carolina,2017,9,3.86
+North Carolina,2017,10,4.37
+North Carolina,2017,11,1.30
+North Carolina,2017,12,2.85
+North Carolina,2018,1,3.79
+North Carolina,2018,2,3.08
+North Carolina,2018,3,4.11
+North Carolina,2018,4,5.16
+North Carolina,2018,5,6.79
+North Carolina,2018,6,3.98
+North Carolina,2018,7,6.36
+North Carolina,2018,8,6.61
+North Carolina,2018,9,10.40
+North Carolina,2018,10,4.68
+North Carolina,2018,11,6.33
+North Carolina,2018,12,7.06
+North Carolina,2019,1,3.85
+North Carolina,2019,2,4.99
+North Carolina,2019,3,3.22
+North Carolina,2019,4,5.19
+North Carolina,2019,5,2.28
+North Carolina,2019,6,5.82
+North Carolina,2019,7,4.75
+North Carolina,2019,8,5.14
+North Carolina,2019,9,3.09
+North Carolina,2019,10,4.90
+North Carolina,2019,11,3.34
+North Carolina,2019,12,4.54
+North Dakota,2015,1,0.48
+North Dakota,2015,2,0.41
+North Dakota,2015,3,0.42
+North Dakota,2015,4,0.59
+North Dakota,2015,5,4.00
+North Dakota,2015,6,3.63
+North Dakota,2015,7,2.65
+North Dakota,2015,8,1.59
+North Dakota,2015,9,1.57
+North Dakota,2015,10,1.32
+North Dakota,2015,11,0.49
+North Dakota,2015,12,0.57
+North Dakota,2016,1,0.22
+North Dakota,2016,2,0.39
+North Dakota,2016,3,0.53
+North Dakota,2016,4,2.53
+North Dakota,2016,5,2.31
+North Dakota,2016,6,2.61
+North Dakota,2016,7,4.33
+North Dakota,2016,8,2.44
+North Dakota,2016,9,3.05
+North Dakota,2016,10,1.23
+North Dakota,2016,11,0.91
+North Dakota,2016,12,1.30
+North Dakota,2017,1,0.48
+North Dakota,2017,2,0.40
+North Dakota,2017,3,0.47
+North Dakota,2017,4,0.97
+North Dakota,2017,5,1.01
+North Dakota,2017,6,2.20
+North Dakota,2017,7,1.24
+North Dakota,2017,8,2.79
+North Dakota,2017,9,2.47
+North Dakota,2017,10,0.25
+North Dakota,2017,11,0.31
+North Dakota,2017,12,0.40
+North Dakota,2018,1,0.23
+North Dakota,2018,2,0.35
+North Dakota,2018,3,1.39
+North Dakota,2018,4,0.50
+North Dakota,2018,5,1.97
+North Dakota,2018,6,4.53
+North Dakota,2018,7,2.89
+North Dakota,2018,8,1.45
+North Dakota,2018,9,1.65
+North Dakota,2018,10,1.40
+North Dakota,2018,11,0.76
+North Dakota,2018,12,0.65
+North Dakota,2019,1,0.42
+North Dakota,2019,2,1.01
+North Dakota,2019,3,0.51
+North Dakota,2019,4,1.15
+North Dakota,2019,5,2.30
+North Dakota,2019,6,3.07
+North Dakota,2019,7,3.40
+North Dakota,2019,8,2.85
+North Dakota,2019,9,5.90
+North Dakota,2019,10,2.41
+North Dakota,2019,11,0.61
+North Dakota,2019,12,0.76
+Ohio,2015,1,2.46
+Ohio,2015,2,1.47
+Ohio,2015,3,3.52
+Ohio,2015,4,4.58
+Ohio,2015,5,3.34
+Ohio,2015,6,8.03
+Ohio,2015,7,4.75
+Ohio,2015,8,2.49
+Ohio,2015,9,3.07
+Ohio,2015,10,2.76
+Ohio,2015,11,2.24
+Ohio,2015,12,4.30
+Ohio,2016,1,1.34
+Ohio,2016,2,3.24
+Ohio,2016,3,4.01
+Ohio,2016,4,3.40
+Ohio,2016,5,3.40
+Ohio,2016,6,3.29
+Ohio,2016,7,3.23
+Ohio,2016,8,4.20
+Ohio,2016,9,3.72
+Ohio,2016,10,2.93
+Ohio,2016,11,1.31
+Ohio,2016,12,3.32
+Ohio,2017,1,4.06
+Ohio,2017,2,2.03
+Ohio,2017,3,4.50
+Ohio,2017,4,4.06
+Ohio,2017,5,5.29
+Ohio,2017,6,4.62
+Ohio,2017,7,6.29
+Ohio,2017,8,2.32
+Ohio,2017,9,1.87
+Ohio,2017,10,3.77
+Ohio,2017,11,5.14
+Ohio,2017,12,1.56
+Ohio,2018,1,2.31
+Ohio,2018,2,5.40
+Ohio,2018,3,3.30
+Ohio,2018,4,4.63
+Ohio,2018,5,4.00
+Ohio,2018,6,5.50
+Ohio,2018,7,3.26
+Ohio,2018,8,4.96
+Ohio,2018,9,6.30
+Ohio,2018,10,2.77
+Ohio,2018,11,5.16
+Ohio,2018,12,3.34
+Ohio,2019,1,3.42
+Ohio,2019,2,4.69
+Ohio,2019,3,3.54
+Ohio,2019,4,4.31
+Ohio,2019,5,4.82
+Ohio,2019,6,6.76
+Ohio,2019,7,4.45
+Ohio,2019,8,3.64
+Ohio,2019,9,1.74
+Ohio,2019,10,3.80
+Ohio,2019,11,2.19
+Ohio,2019,12,3.51
+Oklahoma,2015,1,1.21
+Oklahoma,2015,2,1.18
+Oklahoma,2015,3,2.41
+Oklahoma,2015,4,4.85
+Oklahoma,2015,5,14.44
+Oklahoma,2015,6,4.81
+Oklahoma,2015,7,5.43
+Oklahoma,2015,8,2.45
+Oklahoma,2015,9,2.07
+Oklahoma,2015,10,3.26
+Oklahoma,2015,11,6.05
+Oklahoma,2015,12,5.56
+Oklahoma,2016,1,0.50
+Oklahoma,2016,2,1.02
+Oklahoma,2016,3,2.47
+Oklahoma,2016,4,6.05
+Oklahoma,2016,5,3.86
+Oklahoma,2016,6,3.26
+Oklahoma,2016,7,3.72
+Oklahoma,2016,8,2.90
+Oklahoma,2016,9,3.53
+Oklahoma,2016,10,1.87
+Oklahoma,2016,11,1.25
+Oklahoma,2016,12,0.76
+Oklahoma,2017,1,2.59
+Oklahoma,2017,2,2.05
+Oklahoma,2017,3,2.60
+Oklahoma,2017,4,6.62
+Oklahoma,2017,5,4.49
+Oklahoma,2017,6,2.57
+Oklahoma,2017,7,3.85
+Oklahoma,2017,8,6.42
+Oklahoma,2017,9,2.57
+Oklahoma,2017,10,3.62
+Oklahoma,2017,11,0.26
+Oklahoma,2017,12,0.97
+Oklahoma,2018,1,0.53
+Oklahoma,2018,2,4.09
+Oklahoma,2018,3,2.10
+Oklahoma,2018,4,2.18
+Oklahoma,2018,5,3.92
+Oklahoma,2018,6,3.70
+Oklahoma,2018,7,3.26
+Oklahoma,2018,8,4.27
+Oklahoma,2018,9,5.50
+Oklahoma,2018,10,6.55
+Oklahoma,2018,11,1.09
+Oklahoma,2018,12,3.82
+Oklahoma,2019,1,2.10
+Oklahoma,2019,2,1.48
+Oklahoma,2019,3,2.63
+Oklahoma,2019,4,3.91
+Oklahoma,2019,5,11.61
+Oklahoma,2019,6,5.09
+Oklahoma,2019,7,1.83
+Oklahoma,2019,8,5.14
+Oklahoma,2019,9,3.01
+Oklahoma,2019,10,4.75
+Oklahoma,2019,11,2.34
+Oklahoma,2019,12,1.08
+Oregon,2015,1,1.98
+Oregon,2015,2,3.58
+Oregon,2015,3,2.59
+Oregon,2015,4,1.55
+Oregon,2015,5,2.17
+Oregon,2015,6,0.42
+Oregon,2015,7,0.76
+Oregon,2015,8,0.38
+Oregon,2015,9,0.83
+Oregon,2015,10,1.93
+Oregon,2015,11,3.85
+Oregon,2015,12,10.13
+Oregon,2016,1,5.16
+Oregon,2016,2,2.48
+Oregon,2016,3,4.96
+Oregon,2016,4,1.78
+Oregon,2016,5,1.57
+Oregon,2016,6,1.03
+Oregon,2016,7,0.66
+Oregon,2016,8,0.10
+Oregon,2016,9,0.61
+Oregon,2016,10,7.24
+Oregon,2016,11,3.83
+Oregon,2016,12,5.26
+Oregon,2017,1,5.01
+Oregon,2017,2,6.48
+Oregon,2017,3,5.79
+Oregon,2017,4,3.89
+Oregon,2017,5,1.59
+Oregon,2017,6,1.38
+Oregon,2017,7,0.07
+Oregon,2017,8,0.21
+Oregon,2017,9,1.37
+Oregon,2017,10,3.11
+Oregon,2017,11,5.11
+Oregon,2017,12,2.21
+Oregon,2018,1,4.14
+Oregon,2018,2,2.29
+Oregon,2018,3,3.42
+Oregon,2018,4,3.26
+Oregon,2018,5,1.27
+Oregon,2018,6,1.13
+Oregon,2018,7,0.06
+Oregon,2018,8,0.16
+Oregon,2018,9,0.31
+Oregon,2018,10,2.12
+Oregon,2018,11,2.71
+Oregon,2018,12,4.54
+Oregon,2019,1,3.48
+Oregon,2019,2,6.62
+Oregon,2019,3,2.05
+Oregon,2019,4,4.76
+Oregon,2019,5,2.55
+Oregon,2019,6,0.67
+Oregon,2019,7,0.26
+Oregon,2019,8,0.67
+Oregon,2019,9,2.68
+Oregon,2019,10,1.57
+Oregon,2019,11,1.19
+Oregon,2019,12,3.55
+Pennsylvania,2015,1,2.44
+Pennsylvania,2015,2,1.52
+Pennsylvania,2015,3,3.19
+Pennsylvania,2015,4,3.86
+Pennsylvania,2015,5,2.57
+Pennsylvania,2015,6,8.36
+Pennsylvania,2015,7,4.33
+Pennsylvania,2015,8,2.57
+Pennsylvania,2015,9,4.32
+Pennsylvania,2015,10,3.78
+Pennsylvania,2015,11,2.06
+Pennsylvania,2015,12,4.10
+Pennsylvania,2016,1,2.39
+Pennsylvania,2016,2,3.94
+Pennsylvania,2016,3,1.96
+Pennsylvania,2016,4,2.63
+Pennsylvania,2016,5,3.88
+Pennsylvania,2016,6,3.35
+Pennsylvania,2016,7,3.79
+Pennsylvania,2016,8,4.09
+Pennsylvania,2016,9,3.55
+Pennsylvania,2016,10,4.31
+Pennsylvania,2016,11,1.49
+Pennsylvania,2016,12,3.62
+Pennsylvania,2017,1,3.82
+Pennsylvania,2017,2,2.20
+Pennsylvania,2017,3,3.98
+Pennsylvania,2017,4,4.32
+Pennsylvania,2017,5,5.95
+Pennsylvania,2017,6,4.62
+Pennsylvania,2017,7,6.14
+Pennsylvania,2017,8,3.84
+Pennsylvania,2017,9,2.06
+Pennsylvania,2017,10,5.09
+Pennsylvania,2017,11,2.89
+Pennsylvania,2017,12,1.70
+Pennsylvania,2018,1,3.28
+Pennsylvania,2018,2,5.40
+Pennsylvania,2018,3,3.12
+Pennsylvania,2018,4,4.17
+Pennsylvania,2018,5,5.48
+Pennsylvania,2018,6,5.32
+Pennsylvania,2018,7,7.53
+Pennsylvania,2018,8,6.26
+Pennsylvania,2018,9,8.88
+Pennsylvania,2018,10,4.28
+Pennsylvania,2018,11,6.06
+Pennsylvania,2018,12,4.26
+Pennsylvania,2019,1,4.27
+Pennsylvania,2019,2,3.45
+Pennsylvania,2019,3,2.97
+Pennsylvania,2019,4,4.53
+Pennsylvania,2019,5,6.53
+Pennsylvania,2019,6,5.82
+Pennsylvania,2019,7,5.59
+Pennsylvania,2019,8,3.72
+Pennsylvania,2019,9,2.13
+Pennsylvania,2019,10,5.61
+Pennsylvania,2019,11,2.46
+Pennsylvania,2019,12,3.73
+Rhode Island,2015,1,3.71
+Rhode Island,2015,2,2.67
+Rhode Island,2015,3,4.15
+Rhode Island,2015,4,2.50
+Rhode Island,2015,5,1.03
+Rhode Island,2015,6,5.34
+Rhode Island,2015,7,3.12
+Rhode Island,2015,8,2.53
+Rhode Island,2015,9,4.00
+Rhode Island,2015,10,4.02
+Rhode Island,2015,11,2.59
+Rhode Island,2015,12,5.22
+Rhode Island,2016,1,3.20
+Rhode Island,2016,2,5.26
+Rhode Island,2016,3,2.66
+Rhode Island,2016,4,3.99
+Rhode Island,2016,5,3.45
+Rhode Island,2016,6,1.44
+Rhode Island,2016,7,2.60
+Rhode Island,2016,8,2.85
+Rhode Island,2016,9,2.75
+Rhode Island,2016,10,6.32
+Rhode Island,2016,11,3.21
+Rhode Island,2016,12,3.53
+Rhode Island,2017,1,4.84
+Rhode Island,2017,2,2.32
+Rhode Island,2017,3,3.72
+Rhode Island,2017,4,6.56
+Rhode Island,2017,5,6.33
+Rhode Island,2017,6,3.75
+Rhode Island,2017,7,3.60
+Rhode Island,2017,8,1.89
+Rhode Island,2017,9,3.16
+Rhode Island,2017,10,7.41
+Rhode Island,2017,11,2.75
+Rhode Island,2017,12,2.78
+Rhode Island,2018,1,5.79
+Rhode Island,2018,2,5.68
+Rhode Island,2018,3,5.50
+Rhode Island,2018,4,5.40
+Rhode Island,2018,5,2.33
+Rhode Island,2018,6,2.70
+Rhode Island,2018,7,2.51
+Rhode Island,2018,8,4.54
+Rhode Island,2018,9,7.91
+Rhode Island,2018,10,6.56
+Rhode Island,2018,11,9.60
+Rhode Island,2018,12,4.66
+Rhode Island,2019,1,6.42
+Rhode Island,2019,2,3.51
+Rhode Island,2019,3,3.45
+Rhode Island,2019,4,7.08
+Rhode Island,2019,5,4.05
+Rhode Island,2019,6,4.80
+Rhode Island,2019,7,4.66
+Rhode Island,2019,8,4.04
+Rhode Island,2019,9,1.63
+Rhode Island,2019,10,7.05
+Rhode Island,2019,11,3.12
+Rhode Island,2019,12,7.30
+South Carolina,2015,1,3.56
+South Carolina,2015,2,4.06
+South Carolina,2015,3,3.18
+South Carolina,2015,4,4.47
+South Carolina,2015,5,1.63
+South Carolina,2015,6,4.12
+South Carolina,2015,7,3.47
+South Carolina,2015,8,5.71
+South Carolina,2015,9,4.35
+South Carolina,2015,10,12.17
+South Carolina,2015,11,7.24
+South Carolina,2015,12,6.70
+South Carolina,2016,1,2.83
+South Carolina,2016,2,4.66
+South Carolina,2016,3,2.21
+South Carolina,2016,4,2.40
+South Carolina,2016,5,5.58
+South Carolina,2016,6,3.61
+South Carolina,2016,7,3.78
+South Carolina,2016,8,3.84
+South Carolina,2016,9,6.83
+South Carolina,2016,10,5.55
+South Carolina,2016,11,0.99
+South Carolina,2016,12,3.97
+South Carolina,2017,1,4.88
+South Carolina,2017,2,1.38
+South Carolina,2017,3,2.34
+South Carolina,2017,4,5.51
+South Carolina,2017,5,5.15
+South Carolina,2017,6,4.43
+South Carolina,2017,7,5.50
+South Carolina,2017,8,4.55
+South Carolina,2017,9,4.83
+South Carolina,2017,10,3.25
+South Carolina,2017,11,1.19
+South Carolina,2017,12,3.56
+South Carolina,2018,1,2.82
+South Carolina,2018,2,2.23
+South Carolina,2018,3,3.11
+South Carolina,2018,4,4.49
+South Carolina,2018,5,6.19
+South Carolina,2018,6,3.72
+South Carolina,2018,7,6.03
+South Carolina,2018,8,4.27
+South Carolina,2018,9,6.13
+South Carolina,2018,10,4.61
+South Carolina,2018,11,5.72
+South Carolina,2018,12,7.98
+South Carolina,2019,1,3.60
+South Carolina,2019,2,2.48
+South Carolina,2019,3,2.52
+South Carolina,2019,4,3.99
+South Carolina,2019,5,2.15
+South Carolina,2019,6,5.94
+South Carolina,2019,7,3.91
+South Carolina,2019,8,4.83
+South Carolina,2019,9,2.19
+South Carolina,2019,10,4.01
+South Carolina,2019,11,3.48
+South Carolina,2019,12,6.92
+South Dakota,2015,1,0.27
+South Dakota,2015,2,0.34
+South Dakota,2015,3,0.24
+South Dakota,2015,4,0.87
+South Dakota,2015,5,5.72
+South Dakota,2015,6,4.05
+South Dakota,2015,7,3.02
+South Dakota,2015,8,3.36
+South Dakota,2015,9,1.33
+South Dakota,2015,10,1.44
+South Dakota,2015,11,1.02
+South Dakota,2015,12,1.12
+South Dakota,2016,1,0.27
+South Dakota,2016,2,0.58
+South Dakota,2016,3,1.04
+South Dakota,2016,4,3.76
+South Dakota,2016,5,2.54
+South Dakota,2016,6,1.78
+South Dakota,2016,7,2.74
+South Dakota,2016,8,2.61
+South Dakota,2016,9,1.97
+South Dakota,2016,10,1.23
+South Dakota,2016,11,0.91
+South Dakota,2016,12,1.25
+South Dakota,2017,1,0.68
+South Dakota,2017,2,0.37
+South Dakota,2017,3,0.66
+South Dakota,2017,4,1.94
+South Dakota,2017,5,2.12
+South Dakota,2017,6,2.19
+South Dakota,2017,7,2.12
+South Dakota,2017,8,3.17
+South Dakota,2017,9,2.49
+South Dakota,2017,10,1.24
+South Dakota,2017,11,0.23
+South Dakota,2017,12,0.42
+South Dakota,2018,1,0.30
+South Dakota,2018,2,0.94
+South Dakota,2018,3,1.53
+South Dakota,2018,4,1.70
+South Dakota,2018,5,2.71
+South Dakota,2018,6,4.78
+South Dakota,2018,7,3.40
+South Dakota,2018,8,1.94
+South Dakota,2018,9,2.55
+South Dakota,2018,10,1.70
+South Dakota,2018,11,0.73
+South Dakota,2018,12,0.97
+South Dakota,2019,1,0.49
+South Dakota,2019,2,1.01
+South Dakota,2019,3,1.69
+South Dakota,2019,4,2.64
+South Dakota,2019,5,5.90
+South Dakota,2019,6,2.63
+South Dakota,2019,7,5.45
+South Dakota,2019,8,3.65
+South Dakota,2019,9,3.90
+South Dakota,2019,10,2.13
+South Dakota,2019,11,0.94
+South Dakota,2019,12,0.97
+Tennessee,2015,1,2.81
+Tennessee,2015,2,4.56
+Tennessee,2015,3,5.41
+Tennessee,2015,4,5.96
+Tennessee,2015,5,3.68
+Tennessee,2015,6,4.76
+Tennessee,2015,7,6.48
+Tennessee,2015,8,4.53
+Tennessee,2015,9,2.73
+Tennessee,2015,10,3.96
+Tennessee,2015,11,6.38
+Tennessee,2015,12,7.90
+Tennessee,2016,1,2.76
+Tennessee,2016,2,5.79
+Tennessee,2016,3,5.16
+Tennessee,2016,4,3.20
+Tennessee,2016,5,3.80
+Tennessee,2016,6,3.99
+Tennessee,2016,7,4.86
+Tennessee,2016,8,5.03
+Tennessee,2016,9,1.80
+Tennessee,2016,10,0.73
+Tennessee,2016,11,3.05
+Tennessee,2016,12,6.87
+Tennessee,2017,1,4.24
+Tennessee,2017,2,2.38
+Tennessee,2017,3,5.77
+Tennessee,2017,4,6.61
+Tennessee,2017,5,5.95
+Tennessee,2017,6,4.37
+Tennessee,2017,7,5.36
+Tennessee,2017,8,4.90
+Tennessee,2017,9,4.31
+Tennessee,2017,10,4.92
+Tennessee,2017,11,2.78
+Tennessee,2017,12,4.63
+Tennessee,2018,1,2.55
+Tennessee,2018,2,10.73
+Tennessee,2018,3,5.67
+Tennessee,2018,4,5.97
+Tennessee,2018,5,4.99
+Tennessee,2018,6,5.74
+Tennessee,2018,7,3.52
+Tennessee,2018,8,4.26
+Tennessee,2018,9,7.29
+Tennessee,2018,10,3.57
+Tennessee,2018,11,5.51
+Tennessee,2018,12,7.34
+Tennessee,2019,1,5.78
+Tennessee,2019,2,12.07
+Tennessee,2019,3,4.26
+Tennessee,2019,4,5.84
+Tennessee,2019,5,3.71
+Tennessee,2019,6,6.46
+Tennessee,2019,7,6.13
+Tennessee,2019,8,3.97
+Tennessee,2019,9,0.50
+Tennessee,2019,10,7.28
+Tennessee,2019,11,4.74
+Tennessee,2019,12,6.17
+Texas,2015,1,2.67
+Texas,2015,2,1.09
+Texas,2015,3,3.47
+Texas,2015,4,3.96
+Texas,2015,5,9.05
+Texas,2015,6,3.72
+Texas,2015,7,1.85
+Texas,2015,8,1.43
+Texas,2015,9,1.43
+Texas,2015,10,6.17
+Texas,2015,11,3.87
+Texas,2015,12,2.52
+Texas,2016,1,0.95
+Texas,2016,2,1.06
+Texas,2016,3,2.85
+Texas,2016,4,4.30
+Texas,2016,5,4.86
+Texas,2016,6,3.37
+Texas,2016,7,1.31
+Texas,2016,8,5.33
+Texas,2016,9,2.96
+Texas,2016,10,0.67
+Texas,2016,11,2.34
+Texas,2016,12,2.10
+Texas,2017,1,2.28
+Texas,2017,2,1.71
+Texas,2017,3,1.88
+Texas,2017,4,2.75
+Texas,2017,5,2.54
+Texas,2017,6,3.11
+Texas,2017,7,2.46
+Texas,2017,8,7.00
+Texas,2017,9,2.61
+Texas,2017,10,1.25
+Texas,2017,11,0.73
+Texas,2017,12,1.96
+Texas,2018,1,0.64
+Texas,2018,2,2.43
+Texas,2018,3,1.96
+Texas,2018,4,1.05
+Texas,2018,5,2.08
+Texas,2018,6,2.49
+Texas,2018,7,2.15
+Texas,2018,8,2.17
+Texas,2018,9,6.71
+Texas,2018,10,6.92
+Texas,2018,11,1.78
+Texas,2018,12,3.34
+Texas,2019,1,1.50
+Texas,2019,2,0.92
+Texas,2019,3,1.21
+Texas,2019,4,3.58
+Texas,2019,5,5.23
+Texas,2019,6,4.27
+Texas,2019,7,1.29
+Texas,2019,8,1.42
+Texas,2019,9,2.43
+Texas,2019,10,2.71
+Texas,2019,11,1.42
+Texas,2019,12,0.88
+Utah,2015,1,0.92
+Utah,2015,2,0.63
+Utah,2015,3,0.85
+Utah,2015,4,0.98
+Utah,2015,5,3.20
+Utah,2015,6,0.97
+Utah,2015,7,1.46
+Utah,2015,8,1.27
+Utah,2015,9,0.88
+Utah,2015,10,1.80
+Utah,2015,11,1.07
+Utah,2015,12,1.38
+Utah,2016,1,1.42
+Utah,2016,2,0.62
+Utah,2016,3,1.20
+Utah,2016,4,1.70
+Utah,2016,5,1.36
+Utah,2016,6,0.33
+Utah,2016,7,0.62
+Utah,2016,8,0.94
+Utah,2016,9,2.08
+Utah,2016,10,0.89
+Utah,2016,11,0.95
+Utah,2016,12,1.93
+Utah,2017,1,2.76
+Utah,2017,2,1.54
+Utah,2017,3,1.59
+Utah,2017,4,1.17
+Utah,2017,5,0.64
+Utah,2017,6,0.16
+Utah,2017,7,1.39
+Utah,2017,8,0.94
+Utah,2017,9,1.54
+Utah,2017,10,0.18
+Utah,2017,11,0.53
+Utah,2017,12,0.39
+Utah,2018,1,0.86
+Utah,2018,2,0.83
+Utah,2018,3,1.29
+Utah,2018,4,0.86
+Utah,2018,5,1.14
+Utah,2018,6,0.05
+Utah,2018,7,0.84
+Utah,2018,8,1.02
+Utah,2018,9,0.08
+Utah,2018,10,2.93
+Utah,2018,11,0.85
+Utah,2018,12,0.83
+Utah,2019,1,1.51
+Utah,2019,2,2.31
+Utah,2019,3,2.61
+Utah,2019,4,1.74
+Utah,2019,5,2.94
+Utah,2019,6,0.49
+Utah,2019,7,0.59
+Utah,2019,8,0.35
+Utah,2019,9,0.85
+Utah,2019,10,0.24
+Utah,2019,11,1.86
+Utah,2019,12,1.45
+Vermont,2015,1,2.79
+Vermont,2015,2,1.79
+Vermont,2015,3,1.34
+Vermont,2015,4,2.71
+Vermont,2015,5,3.06
+Vermont,2015,6,8.63
+Vermont,2015,7,4.08
+Vermont,2015,8,2.95
+Vermont,2015,9,4.73
+Vermont,2015,10,3.48
+Vermont,2015,11,1.81
+Vermont,2015,12,5.07
+Vermont,2016,1,1.62
+Vermont,2016,2,4.71
+Vermont,2016,3,2.96
+Vermont,2016,4,2.60
+Vermont,2016,5,2.74
+Vermont,2016,6,3.29
+Vermont,2016,7,3.83
+Vermont,2016,8,4.82
+Vermont,2016,9,2.12
+Vermont,2016,10,3.55
+Vermont,2016,11,2.78
+Vermont,2016,12,3.60
+Vermont,2017,1,2.53
+Vermont,2017,2,2.84
+Vermont,2017,3,3.30
+Vermont,2017,4,4.19
+Vermont,2017,5,5.72
+Vermont,2017,6,6.46
+Vermont,2017,7,4.23
+Vermont,2017,8,3.55
+Vermont,2017,9,2.93
+Vermont,2017,10,5.26
+Vermont,2017,11,2.19
+Vermont,2017,12,3.10
+Vermont,2018,1,3.49
+Vermont,2018,2,2.95
+Vermont,2018,3,3.03
+Vermont,2018,4,4.70
+Vermont,2018,5,1.99
+Vermont,2018,6,3.85
+Vermont,2018,7,4.35
+Vermont,2018,8,4.20
+Vermont,2018,9,4.03
+Vermont,2018,10,4.40
+Vermont,2018,11,6.33
+Vermont,2018,12,3.75
+Vermont,2019,1,5.05
+Vermont,2019,2,2.71
+Vermont,2019,3,2.06
+Vermont,2019,4,5.59
+Vermont,2019,5,5.66
+Vermont,2019,6,5.61
+Vermont,2019,7,3.39
+Vermont,2019,8,3.79
+Vermont,2019,9,3.18
+Vermont,2019,10,6.83
+Vermont,2019,11,3.98
+Vermont,2019,12,3.55
+Virginia,2015,1,2.59
+Virginia,2015,2,2.66
+Virginia,2015,3,3.75
+Virginia,2015,4,4.51
+Virginia,2015,5,2.15
+Virginia,2015,6,6.95
+Virginia,2015,7,5.05
+Virginia,2015,8,2.65
+Virginia,2015,9,5.73
+Virginia,2015,10,4.58
+Virginia,2015,11,3.92
+Virginia,2015,12,5.22
+Virginia,2016,1,2.93
+Virginia,2016,2,4.71
+Virginia,2016,3,2.05
+Virginia,2016,4,2.34
+Virginia,2016,5,6.92
+Virginia,2016,6,5.04
+Virginia,2016,7,4.82
+Virginia,2016,8,3.23
+Virginia,2016,9,5.27
+Virginia,2016,10,3.52
+Virginia,2016,11,1.37
+Virginia,2016,12,3.21
+Virginia,2017,1,3.96
+Virginia,2017,2,0.86
+Virginia,2017,3,3.17
+Virginia,2017,4,4.85
+Virginia,2017,5,7.52
+Virginia,2017,6,3.41
+Virginia,2017,7,4.13
+Virginia,2017,8,4.66
+Virginia,2017,9,2.03
+Virginia,2017,10,4.50
+Virginia,2017,11,1.36
+Virginia,2017,12,1.11
+Virginia,2018,1,2.67
+Virginia,2018,2,4.35
+Virginia,2018,3,3.17
+Virginia,2018,4,4.43
+Virginia,2018,5,7.27
+Virginia,2018,6,5.96
+Virginia,2018,7,5.39
+Virginia,2018,8,5.81
+Virginia,2018,9,7.96
+Virginia,2018,10,5.08
+Virginia,2018,11,6.08
+Virginia,2018,12,5.36
+Virginia,2019,1,3.52
+Virginia,2019,2,5.23
+Virginia,2019,3,3.31
+Virginia,2019,4,4.16
+Virginia,2019,5,3.60
+Virginia,2019,6,5.81
+Virginia,2019,7,4.51
+Virginia,2019,8,3.43
+Virginia,2019,9,0.94
+Virginia,2019,10,5.63
+Virginia,2019,11,2.48
+Virginia,2019,12,3.38
+Washington,2015,1,4.96
+Washington,2015,2,4.30
+Washington,2015,3,4.32
+Washington,2015,4,1.82
+Washington,2015,5,1.51
+Washington,2015,6,0.47
+Washington,2015,7,0.42
+Washington,2015,8,1.33
+Washington,2015,9,1.50
+Washington,2015,10,4.18
+Washington,2015,11,7.02
+Washington,2015,12,11.42
+Washington,2016,1,6.82
+Washington,2016,2,5.08
+Washington,2016,3,6.99
+Washington,2016,4,1.60
+Washington,2016,5,1.54
+Washington,2016,6,1.83
+Washington,2016,7,1.16
+Washington,2016,8,0.36
+Washington,2016,9,1.67
+Washington,2016,10,10.29
+Washington,2016,11,6.87
+Washington,2016,12,4.93
+Washington,2017,1,3.64
+Washington,2017,2,7.17
+Washington,2017,3,8.53
+Washington,2017,4,4.88
+Washington,2017,5,2.42
+Washington,2017,6,1.55
+Washington,2017,7,0.04
+Washington,2017,8,0.14
+Washington,2017,9,1.35
+Washington,2017,10,5.06
+Washington,2017,11,8.86
+Washington,2017,12,5.09
+Washington,2018,1,7.74
+Washington,2018,2,4.39
+Washington,2018,3,3.29
+Washington,2018,4,5.47
+Washington,2018,5,1.08
+Washington,2018,6,1.36
+Washington,2018,7,0.17
+Washington,2018,8,0.35
+Washington,2018,9,1.59
+Washington,2018,10,3.65
+Washington,2018,11,5.21
+Washington,2018,12,7.02
+Washington,2019,1,4.51
+Washington,2019,2,4.09
+Washington,2019,3,1.41
+Washington,2019,4,3.50
+Washington,2019,5,1.82
+Washington,2019,6,1.05
+Washington,2019,7,0.91
+Washington,2019,8,0.93
+Washington,2019,9,3.62
+Washington,2019,10,3.78
+Washington,2019,11,1.85
+Washington,2019,12,5.58
+West Virginia,2015,1,2.41
+West Virginia,2015,2,2.74
+West Virginia,2015,3,5.36
+West Virginia,2015,4,6.34
+West Virginia,2015,5,2.36
+West Virginia,2015,6,6.43
+West Virginia,2015,7,6.46
+West Virginia,2015,8,2.71
+West Virginia,2015,9,4.05
+West Virginia,2015,10,2.76
+West Virginia,2015,11,2.28
+West Virginia,2015,12,4.72
+West Virginia,2016,1,2.61
+West Virginia,2016,2,3.65
+West Virginia,2016,3,2.53
+West Virginia,2016,4,2.91
+West Virginia,2016,5,6.01
+West Virginia,2016,6,6.26
+West Virginia,2016,7,4.93
+West Virginia,2016,8,3.63
+West Virginia,2016,9,2.86
+West Virginia,2016,10,3.53
+West Virginia,2016,11,1.87
+West Virginia,2016,12,4.57
+West Virginia,2017,1,4.80
+West Virginia,2017,2,1.75
+West Virginia,2017,3,4.31
+West Virginia,2017,4,4.35
+West Virginia,2017,5,6.16
+West Virginia,2017,6,4.70
+West Virginia,2017,7,6.17
+West Virginia,2017,8,3.39
+West Virginia,2017,9,1.91
+West Virginia,2017,10,5.26
+West Virginia,2017,11,2.34
+West Virginia,2017,12,1.87
+West Virginia,2018,1,3.11
+West Virginia,2018,2,6.85
+West Virginia,2018,3,3.97
+West Virginia,2018,4,4.95
+West Virginia,2018,5,6.16
+West Virginia,2018,6,6.24
+West Virginia,2018,7,4.79
+West Virginia,2018,8,5.89
+West Virginia,2018,9,9.41
+West Virginia,2018,10,3.95
+West Virginia,2018,11,4.85
+West Virginia,2018,12,4.93
+West Virginia,2019,1,3.86
+West Virginia,2019,2,5.48
+West Virginia,2019,3,2.62
+West Virginia,2019,4,3.85
+West Virginia,2019,5,5.54
+West Virginia,2019,6,5.06
+West Virginia,2019,7,4.58
+West Virginia,2019,8,3.83
+West Virginia,2019,9,0.68
+West Virginia,2019,10,5.26
+West Virginia,2019,11,2.59
+West Virginia,2019,12,4.89
+Wisconsin,2015,1,0.53
+Wisconsin,2015,2,0.42
+Wisconsin,2015,3,0.73
+Wisconsin,2015,4,2.94
+Wisconsin,2015,5,4.65
+Wisconsin,2015,6,4.44
+Wisconsin,2015,7,3.38
+Wisconsin,2015,8,4.00
+Wisconsin,2015,9,4.39
+Wisconsin,2015,10,2.70
+Wisconsin,2015,11,3.42
+Wisconsin,2015,12,4.28
+Wisconsin,2016,1,0.84
+Wisconsin,2016,2,0.82
+Wisconsin,2016,3,3.93
+Wisconsin,2016,4,2.21
+Wisconsin,2016,5,3.06
+Wisconsin,2016,6,5.36
+Wisconsin,2016,7,5.20
+Wisconsin,2016,8,5.21
+Wisconsin,2016,9,5.99
+Wisconsin,2016,10,2.95
+Wisconsin,2016,11,1.84
+Wisconsin,2016,12,1.98
+Wisconsin,2017,1,2.03
+Wisconsin,2017,2,1.34
+Wisconsin,2017,3,1.99
+Wisconsin,2017,4,4.59
+Wisconsin,2017,5,4.94
+Wisconsin,2017,6,5.94
+Wisconsin,2017,7,4.46
+Wisconsin,2017,8,4.10
+Wisconsin,2017,9,1.90
+Wisconsin,2017,10,4.30
+Wisconsin,2017,11,0.91
+Wisconsin,2017,12,1.07
+Wisconsin,2018,1,1.20
+Wisconsin,2018,2,1.51
+Wisconsin,2018,3,0.92
+Wisconsin,2018,4,2.53
+Wisconsin,2018,5,4.70
+Wisconsin,2018,6,5.44
+Wisconsin,2018,7,3.11
+Wisconsin,2018,8,6.07
+Wisconsin,2018,9,5.52
+Wisconsin,2018,10,5.25
+Wisconsin,2018,11,1.94
+Wisconsin,2018,12,1.55
+Wisconsin,2019,1,1.43
+Wisconsin,2019,2,3.12
+Wisconsin,2019,3,1.34
+Wisconsin,2019,4,3.72
+Wisconsin,2019,5,5.56
+Wisconsin,2019,6,3.91
+Wisconsin,2019,7,5.33
+Wisconsin,2019,8,3.54
+Wisconsin,2019,9,7.03
+Wisconsin,2019,10,4.88
+Wisconsin,2019,11,2.03
+Wisconsin,2019,12,2.66
+Wyoming,2015,1,0.62
+Wyoming,2015,2,0.94
+Wyoming,2015,3,0.58
+Wyoming,2015,4,1.70
+Wyoming,2015,5,4.59
+Wyoming,2015,6,1.89
+Wyoming,2015,7,1.53
+Wyoming,2015,8,0.91
+Wyoming,2015,9,0.64
+Wyoming,2015,10,1.11
+Wyoming,2015,11,1.09
+Wyoming,2015,12,1.11
+Wyoming,2016,1,0.87
+Wyoming,2016,2,0.80
+Wyoming,2016,3,1.99
+Wyoming,2016,4,2.52
+Wyoming,2016,5,2.46
+Wyoming,2016,6,0.66
+Wyoming,2016,7,0.70
+Wyoming,2016,8,0.84
+Wyoming,2016,9,1.97
+Wyoming,2016,10,1.81
+Wyoming,2016,11,0.84
+Wyoming,2016,12,1.82
+Wyoming,2017,1,1.66
+Wyoming,2017,2,2.02
+Wyoming,2017,3,1.88
+Wyoming,2017,4,2.80
+Wyoming,2017,5,1.80
+Wyoming,2017,6,1.09
+Wyoming,2017,7,0.97
+Wyoming,2017,8,0.94
+Wyoming,2017,9,2.21
+Wyoming,2017,10,0.79
+Wyoming,2017,11,1.48
+Wyoming,2017,12,1.02
+Wyoming,2018,1,0.90
+Wyoming,2018,2,1.22
+Wyoming,2018,3,1.40
+Wyoming,2018,4,1.44
+Wyoming,2018,5,3.09
+Wyoming,2018,6,2.10
+Wyoming,2018,7,1.32
+Wyoming,2018,8,0.95
+Wyoming,2018,9,0.35
+Wyoming,2018,10,1.28
+Wyoming,2018,11,1.31
+Wyoming,2018,12,0.76
+Wyoming,2019,1,0.90
+Wyoming,2019,2,1.40
+Wyoming,2019,3,1.27
+Wyoming,2019,4,1.97
+Wyoming,2019,5,3.75
+Wyoming,2019,6,1.66
+Wyoming,2019,7,1.31
+Wyoming,2019,8,1.01
+Wyoming,2019,9,1.99
+Wyoming,2019,10,1.19
+Wyoming,2019,11,1.08
+Wyoming,2019,12,0.81
+Alaska,2015,1,3.17
+Alaska,2015,2,1.84
+Alaska,2015,3,2.26
+Alaska,2015,4,2.73
+Alaska,2015,5,1.82
+Alaska,2015,6,2.07
+Alaska,2015,7,3.92
+Alaska,2015,8,4.88
+Alaska,2015,9,6.21
+Alaska,2015,10,4.16
+Alaska,2015,11,5.39
+Alaska,2015,12,1.65
+Alaska,2016,1,2.71
+Alaska,2016,2,2.48
+Alaska,2016,3,2.25
+Alaska,2016,4,2.30
+Alaska,2016,5,2.68
+Alaska,2016,6,2.68
+Alaska,2016,7,4.18
+Alaska,2016,8,5.20
+Alaska,2016,9,5.89
+Alaska,2016,10,1.70
+Alaska,2016,11,2.90
+Alaska,2016,12,2.10
+Alaska,2017,1,2.90
+Alaska,2017,2,2.34
+Alaska,2017,3,1.19
+Alaska,2017,4,0.90
+Alaska,2017,5,2.76
+Alaska,2017,6,2.09
+Alaska,2017,7,3.42
+Alaska,2017,8,6.02
+Alaska,2017,9,5.32
+Alaska,2017,10,5.23
+Alaska,2017,11,2.34
+Alaska,2017,12,3.55
+Alaska,2018,1,2.44
+Alaska,2018,2,2.08
+Alaska,2018,3,2.03
+Alaska,2018,4,2.08
+Alaska,2018,5,2.98
+Alaska,2018,6,3.01
+Alaska,2018,7,2.77
+Alaska,2018,8,6.53
+Alaska,2018,9,2.57
+Alaska,2018,10,4.92
+Alaska,2018,11,3.57
+Alaska,2018,12,2.92
+Alaska,2019,1,2.50
+Alaska,2019,2,2.20
+Alaska,2019,3,2.53
+Alaska,2019,4,1.92
+Alaska,2019,5,2.37
+Alaska,2019,6,1.81
+Alaska,2019,7,2.89
+Alaska,2019,8,3.37
+Alaska,2019,9,5.45
+Alaska,2019,10,4.82
+Alaska,2019,11,5.10
+Alaska,2019,12,3.04

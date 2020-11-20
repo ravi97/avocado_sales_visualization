@@ -1,11 +1,11 @@
 import csv
 # not_cities=['TotalUS','West','California','Midsouth','Northeast','SouthCarolina','SouthCentral','Southeast','GreatLakes','NothernNewEngland']
-with open('state_temp_final.csv', newline='') as csvfile, open('state_temp.csv', 'w', newline='') as write_obj:
+with open('state_precip_final.csv', newline='') as csvfile, open('state_precip.csv', 'w', newline='') as write_obj:
     statetempReader = csv.DictReader(csvfile)
     # avocadoWriter = csv.DictWriter(write_obj)
 
     # field_names = statetempReader.fieldnames
-    field_names = ["state","year","month","temp"]
+    field_names = ["state","year","month","rainfall"]
 
     statetempWriter = csv.DictWriter(write_obj, field_names)    
     # print(field_names)
@@ -17,7 +17,7 @@ with open('state_temp_final.csv', newline='') as csvfile, open('state_temp.csv',
         writerow = {"state" : row["state"],"year": row["year"]}
         for index,item in enumerate(list(row.values())[2:]):
             # print (index+1, item)            
-            writerow.update({"month": index+1 , "temp": item.strip(" ")})
+            writerow.update({"month": index+1 , "rainfall": item.strip(" ")})
             # print(writerow)
             statetempWriter.writerow(writerow)
         # if row["region"] not in not_cities:
