@@ -14,7 +14,8 @@ var user_selection = {
     time: parseTime("2015-01-04"),
     type: "conventional",
     color: true,
-    avgPrice: true
+    avgPrice: true,
+    temp: true
 }
 
 var imgScaleAvgPrice = d3.scaleLinear().range([16, 40]);
@@ -129,12 +130,37 @@ function initVis() {
 function updateVis() {
 
     //for now I have passed default value. once we create a slider, we need to pass those values
+    if (user_selection.color) {
+        if (user_selection.temp) {
+            color.range(["#FF5629", "#7A0013"]).domain(d3.extent(chart_data.climate_data, d => d.temp))
+        }
+        else {
+            color.range(["#A8DFFF", "#0014A7"]).domain(d3.extent(chart_data.climate_data, d => d.rainfall))
+
+        }
+    }
+    else {
+        if (user_selection.temp) {
+            color.range(["#E8E8E8", "#2A2A2A"]).domain(d3.extent(chart_data.climate_data, d => d.temp))
+        }
+        else {
+            color.range(["#E8E8E8", "#2A2A2A"]).domain(d3.extent(chart_data.climate_data, d => d.rainfall))
+
+        }
+
+    }
 
     chart_data.filtered_data(user_selection)
 
     for (var state in chart_data.us_states.features) {
         var stateName = chart_data.us_states.features[state].properties.name
-        chart_data.us_states.features[state].properties.density = chart_data.filtered_climate_data.filter(obj => { return obj.state == stateName })[0].temp
+        if (user_selection.temp) {
+            chart_data.us_states.features[state].properties.density = chart_data.filtered_climate_data.filter(obj => { return obj.state == stateName })[0].temp
+        }
+        else {
+            chart_data.us_states.features[state].properties.density = chart_data.filtered_climate_data.filter(obj => { return obj.state == stateName })[0].rainfall
+
+        }
     }
 
 
@@ -156,7 +182,7 @@ function updateVis() {
         if (user_selection.avgPrice) {
             iconSize = imgScaleAvgPrice(averagePrice)
         }
-        else{
+        else {
             iconSize = imgScaleTotVol(volume)
         }
 
@@ -170,7 +196,7 @@ function updateVis() {
 
         var conventional = new avoIcon({ iconUrl: 'assets/regular.png' }),
             organic = new avoIcon({ iconUrl: 'assets/organic.png' }),
-            bw_conventional = new avoIcon({ iconUrl: 'assets/regualrGrey.png' }),
+            bw_conventional = new avoIcon({ iconUrl: 'assets/regularGrey.png' }),
             bw_organic = new avoIcon({ iconUrl: 'assets/organicGrey.png' });
 
 
