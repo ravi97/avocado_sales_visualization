@@ -1,24 +1,24 @@
 var color = d3.scaleLinear();
-color.domain([0,30,60]);
-color.range(["blue","white","red"])
-
+color.domain([0, 30, 60]);
+color.range(["blue", "white", "red"])
+let sidebar;
 var parseTime = d3.timeParse("%Y-%m-%d");
 
 let time;
 
 var formatTime = d3.timeFormat("%b %d %y")
 
-var user_selection={
-    year:2015,
-    month:1,
-    time:parseTime("2015-01-04"),
-    type:"conventional"
+var user_selection = {
+    year: 2015,
+    month: 1,
+    time: parseTime("2015-01-04"),
+    type: "conventional"
 }
 
 chart_data = new Data()
 populate_chart()
 
-async function populate_chart(){
+async function populate_chart() {
     await this.chart_data.dataPromise
     this.initVis()
     this.updateVis()
@@ -26,7 +26,7 @@ async function populate_chart(){
 }
 
 function style(feature) {
-    var value=feature.properties.density
+    var value = feature.properties.density
     return {
         fillColor: color(value),
         weight: 2,
@@ -40,43 +40,43 @@ function style(feature) {
 function highlightFeature(e) {
     //console.log("called")
     var layer = e.target;
-    
+
     layer.setStyle({
         weight: 5,
         color: '#666',
         dashArray: '',
         fillOpacity: 0.7
     });
-    
+
     if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
         layer.bringToFront();
     }
 }
-    
+
 function resetHighlight(e) {
     geojson.resetStyle(e.target);
 }
-    
+
 function zoomToFeature(e) { map.fitBounds(e.target.getBounds()); }
-    
+
 function onEachFeature(feature, layer) {
-layer.on({
-    mouseover: highlightFeature,
-    mouseout: resetHighlight,
-    click: zoomToFeature
-});
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
+    });
 }
 
 function sortByDateAscending(a, b) { return a - b; }
 
-function initVis(){
+function initVis() {
 
     //time = d3.map(chart_data.avocado_data.map(d => d.Date));
     var time_Data = chart_data.avocado_data.filter(function (row) {
-        return  row.region == "Albany" && row.type == "conventional";
+        return row.region == "Albany" && row.type == "conventional";
     })
-    
-    
+
+
     time = time_Data.map(d => d.Date).sort(sortByDateAscending)
 
     //time.domain([d3.min(chart_data.avocado_data, d => d.Date), d3.max(chart_data.avocado_data, d => d.Date)]);
@@ -93,46 +93,48 @@ function initVis(){
         accessToken: API_KEY,
     }).addTo(map);
 
-    var slider2 = L.control.slider(function(value) {
-            user_selection.time = time[value]; 
-            user_selection.month = time[value].getMonth() + 1;
-            user_selection.year = time[value].getFullYear();
-            updateVis()
-        }, 
-                    {
-                        id:slider2,
-                        orientation: 'horizontal', 
-                        collapsed: false, 
-                        increment: true, 
-                        min: 0,
-                        max: 168,
-                        value: 0,
-                        getValue: function(value) {return formatTime(time[value])}
-                    }).addTo(map);
+    var slider2 = L.control.slider(function (value) {
+        user_selection.time = time[value];
+        user_selection.month = time[value].getMonth() + 1;
+        user_selection.year = time[value].getFullYear();
+        updateVis()
+    },
+        {
+            id: slider2,
+            orientation: 'horizontal',
+            collapsed: false,
+            increment: true,
+            min: 0,
+            max: 168,
+            value: 0,
+            getValue: function (value) { return formatTime(time[value]) }
+        }).addTo(map);
+
+    sidebar = L.control.sidebar('sidebar').addTo(map);
 
 }
 
-function updateVis(){
+function updateVis() {
 
     //for now I have passed default value. once we create a slider, we need to pass those values
-    
+
     chart_data.filtered_data(user_selection)
 
-    for(var state in chart_data.us_states.features){
+    for (var state in chart_data.us_states.features) {
         var stateName = chart_data.us_states.features[state].properties.name
-        chart_data.us_states.features[state].properties.density=chart_data.filtered_climate_data.filter(obj=>{return obj.state==stateName})[0].temp
+        chart_data.us_states.features[state].properties.density = chart_data.filtered_climate_data.filter(obj => { return obj.state == stateName })[0].temp
     }
 
     renderVis()
 
 }
 
-function renderVis(){
-    
-    geojson=L.geoJson(chart_data.us_states, {
+function renderVis() {
+
+    geojson = L.geoJson(chart_data.us_states, {
         style: style,
         onEachFeature: onEachFeature
-        }).addTo(map);
+    }).addTo(map);
 
 }
 
