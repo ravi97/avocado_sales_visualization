@@ -149,7 +149,7 @@ function updateVis() {
         var volume = chart_data.filtered_avocado_data[i]["Total Volume"]
         var name = chart_data.filtered_avocado_data[i].name
 
-        var tooltipText = `<div class = "tootTip"> <b>${name}</b> <br> Average Price : ${averagePrice} <br> Total Volume : ${volume} </div> `
+        var tooltipText = `<div class = "tootTip"> <b>${name}</b> <br> <b>Average Price :</b> ${d3.format("$.2f")(averagePrice)} <br> <b>Total Volume :</b> ${volume} </div> `
         if (user_selection.color) {
             if (user_selection.type == "conventional") {
                 markersArray.push(L.marker([lat, long], { icon: conventional }).bindTooltip(tooltipText))
