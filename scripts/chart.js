@@ -13,21 +13,14 @@ var user_selection = {
     month: 1,
     time: parseTime("2015-01-04"),
     type: "conventional",
-    color: true
+    color: true,
+    avgPrice: true
 }
 
-var avoIcon = L.Icon.extend({
-    options: {
-        iconSize: [38, 38],
-        iconAnchor: [19, 19],
-        popupAnchor: [0, 0]
-    }
-});
+var imgScaleAvgPrice = d3.scaleLinear().range([16, 40]);
+var imgScaleTotVol = d3.scaleLinear().range([16, 40]);
 
-const conventional = new avoIcon({ iconUrl: 'assets/regular.png' }),
-    organic = new avoIcon({ iconUrl: 'assets/organic.png' }),
-    bw_conventional = new avoIcon({ iconUrl: 'assets/regualrGrey.png' }),
-    bw_organic = new avoIcon({ iconUrl: 'assets/organicGrey.png' });
+
 
 chart_data = new Data()
 populate_chart()
@@ -97,6 +90,11 @@ function initVis() {
     //time.range([0,168])
 
     map = L.map('map').setView([37.8, -96], 4)
+    console.log(d3.extent(chart_data.avocado_data, d => d["Total Volume"]))
+
+    imgScaleAvgPrice.domain(d3.extent(chart_data.avocado_data, d => d.AveragePrice))
+
+    imgScaleTotVol.domain(d3.extent(chart_data.avocado_data, d => d["Total Volume"]))
 
     L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -138,7 +136,13 @@ function updateVis() {
         var stateName = chart_data.us_states.features[state].properties.name
         chart_data.us_states.features[state].properties.density = chart_data.filtered_climate_data.filter(obj => { return obj.state == stateName })[0].temp
     }
-    map.removeLayer(markers)   
+
+
+
+
+
+
+    map.removeLayer(markers)
     markersArray = []
     // console.log(chart_data.filtered_avocado_data)
     for (var i in chart_data.filtered_avocado_data) {
@@ -148,6 +152,27 @@ function updateVis() {
         var averagePrice = chart_data.filtered_avocado_data[i].AveragePrice
         var volume = chart_data.filtered_avocado_data[i]["Total Volume"]
         var name = chart_data.filtered_avocado_data[i].name
+
+        if (user_selection.avgPrice) {
+            iconSize = imgScaleAvgPrice(averagePrice)
+        }
+        else{
+            iconSize = imgScaleTotVol(volume)
+        }
+
+        var avoIcon = L.Icon.extend({
+            options: {
+                iconSize: [iconSize, iconSize],
+                iconAnchor: [iconSize / 2, iconSize / 2],
+                popupAnchor: [0, 0]
+            }
+        });
+
+        var conventional = new avoIcon({ iconUrl: 'assets/regular.png' }),
+            organic = new avoIcon({ iconUrl: 'assets/organic.png' }),
+            bw_conventional = new avoIcon({ iconUrl: 'assets/regualrGrey.png' }),
+            bw_organic = new avoIcon({ iconUrl: 'assets/organicGrey.png' });
+
 
         var tooltipText = `<div class = "tootTip"> <b>${name}</b> <br> <b>Average Price :</b> ${d3.format("$.2f")(averagePrice)} <br> <b>Total Volume :</b> ${volume} </div> `
         if (user_selection.color) {

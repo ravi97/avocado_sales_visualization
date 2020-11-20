@@ -21,6 +21,7 @@ class Data{
         var parseTime = d3.timeParse("%Y-%m-%d");
             data.forEach(element => {
                 element.AveragePrice = parseFloat(element.AveragePrice)
+                element["Total Volume"] = parseFloat(element["Total Volume"])
                 element.year = parseInt(element.year);
                 element.month = parseInt(element.month);
                 element.Date = parseTime(element.Date)
