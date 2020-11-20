@@ -8,3 +8,7 @@ html, body, #map {
   height: 100%;
   font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
+
+.tootTip{
+  align-items: center;
+}

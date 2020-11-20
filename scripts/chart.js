@@ -5,15 +5,29 @@ let sidebar;
 var parseTime = d3.timeParse("%Y-%m-%d");
 
 let time;
-
+let markers = L.layerGroup([])
 var formatTime = d3.timeFormat("%b %d %y")
 
 var user_selection = {
     year: 2015,
     month: 1,
     time: parseTime("2015-01-04"),
-    type: "conventional"
+    type: "conventional",
+    color: true
 }
+
+var avoIcon = L.Icon.extend({
+    options: {
+        iconSize: [38, 38],
+        iconAnchor: [19, 19],
+        popupAnchor: [0, 0]
+    }
+});
+
+const conventional = new avoIcon({ iconUrl: 'assets/regular.png' }),
+    organic = new avoIcon({ iconUrl: 'assets/organic.png' }),
+    bw_conventional = new avoIcon({ iconUrl: 'assets/regualrGrey.png' }),
+    bw_organic = new avoIcon({ iconUrl: 'assets/organicGrey.png' });
 
 chart_data = new Data()
 populate_chart()
@@ -124,7 +138,40 @@ function updateVis() {
         var stateName = chart_data.us_states.features[state].properties.name
         chart_data.us_states.features[state].properties.density = chart_data.filtered_climate_data.filter(obj => { return obj.state == stateName })[0].temp
     }
+    map.removeLayer(markers)   
+    markersArray = []
+    // console.log(chart_data.filtered_avocado_data)
+    for (var i in chart_data.filtered_avocado_data) {
+        // console.log(chart_data.filtered_avocado_data[i])
+        var lat = chart_data.filtered_avocado_data[i].lat
+        var long = chart_data.filtered_avocado_data[i].long
+        var averagePrice = chart_data.filtered_avocado_data[i].AveragePrice
+        var volume = chart_data.filtered_avocado_data[i]["Total Volume"]
+        var name = chart_data.filtered_avocado_data[i].name
 
+        var tooltipText = `<div class = "tootTip"> <b>${name}</b> <br> Average Price : ${averagePrice} <br> Total Volume : ${volume} </div> `
+        if (user_selection.color) {
+            if (user_selection.type == "conventional") {
+                markersArray.push(L.marker([lat, long], { icon: conventional }).bindTooltip(tooltipText))
+            }
+            else {
+                markersArray.push(L.marker([lat, long], { icon: organic }).bindTooltip(tooltipText))
+
+            }
+        }
+        else {
+            if (user_selection.type == "conventional") {
+                markersArray.push(L.marker([lat, long], { icon: bw_conventional }).bindTooltip(tooltipText))
+            }
+            else {
+                markersArray.push(L.marker([lat, long], { icon: bw_organic }).bindTooltip(tooltipText))
+
+            }
+        }
+
+    }
+    markers = L.layerGroup(markersArray)
+    map.addLayer(markers)
     renderVis()
 
 }
