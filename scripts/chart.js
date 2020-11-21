@@ -6,6 +6,7 @@ var parseTime = d3.timeParse("%Y-%m-%d");
 
 let time;
 let markers = L.layerGroup([])
+let heatMap = L.layerGroup()
 var formatTime = d3.timeFormat("%b %d %y")
 
 var user_selection = {
@@ -127,6 +128,42 @@ function initVis() {
 
 }
 
+function updateOptions(checkbox) {
+    if (checkbox.id == "heatmap") {
+        if (checkbox.checked == true) {
+            user_selection.temp = true
+        }
+        else {
+            user_selection.temp = false
+        }
+    }
+    else if (checkbox.id == "color") {
+        if (checkbox.checked == true) {
+            user_selection.color = true
+        }
+        else {
+            user_selection.color = false
+        }
+    }
+    else if (checkbox.id == "measure") {
+        if (checkbox.checked == true) {
+            user_selection.avgPrice = false
+        }
+        else {
+            user_selection.avgPrice = true
+        }
+    }
+    else if (checkbox.id == "type") {
+        if (checkbox.checked == true) {
+            user_selection.type = "conventional"
+        }
+        else {
+            user_selection.type = "organic"
+        }
+    }
+    updateVis()
+}
+
 function updateVis() {
 
     //for now I have passed default value. once we create a slider, we need to pass those values
@@ -232,7 +269,12 @@ function renderVis() {
     geojson = L.geoJson(chart_data.us_states, {
         style: style,
         onEachFeature: onEachFeature
-    }).addTo(map);
+    })
+
+    map.removeLayer(heatMap)
+    heatMap = L.layerGroup([geojson])
+    map.addLayer(heatMap)
+
 
 }
 
