@@ -126,6 +126,20 @@ function initVis() {
 
     sidebar = L.control.sidebar('sidebar').addTo(map);
 
+
+    var MyControl = L.Control.extend({
+        options: {
+          position: 'bottomright'
+        },
+    
+        onAdd: function (map) {
+          var container = L.DomUtil.create('div', 'legendContainer');
+          container.innerHTML = "<div id='legend'> </div>"
+          return container;
+        }
+    });
+
+    map.addControl(new MyControl());
 }
 
 function updateOptions(checkbox) {
@@ -140,9 +154,15 @@ function updateOptions(checkbox) {
     else if (checkbox.id == "color") {
         if (checkbox.checked == true) {
             user_selection.color = true
+            var legendDiv = document.getElementById("legend");
+            legendDiv.className = ""
         }
         else {
             user_selection.color = false
+
+            var legendDiv = document.getElementById("legend");
+        
+            legendDiv.className = "noColor"
         }
     }
     else if (checkbox.id == "measure") {
@@ -184,7 +204,6 @@ function updateVis() {
             color.range(["#E8E8E8", "#2A2A2A"]).domain(d3.extent(chart_data.climate_data, d => d.rainfall))
 
         }
-
     }
 
     chart_data.filtered_data(user_selection)

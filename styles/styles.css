@@ -84,3 +84,22 @@ input:checked + .slider:before {
     top: 9px;
     padding: 9px 10px;
 }
+
+#legend {
+  background-image: url('../assets/legend.png');
+  background-size: 300px 260px;
+background-repeat: no-repeat;
+background-position: center;
+background-clip: border-box;
+transition: background-size 0.2s;
+-webkit-transition: background-size 0.2s;
+transition-timing-function: cubic-bezier(.05,1.2,.72,1.2);
+display: inline-block; 
+width: 300px; 
+height: 260px; 
+}
+
+
+#legend.noColor {
+  background-image: url('../assets/legendGrey.png');
+}
