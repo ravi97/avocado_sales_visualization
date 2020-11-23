@@ -78,6 +78,10 @@ function onEachFeature(feature, layer) {
 
 function sortByDateAscending(a, b) { return a - b; }
 
+function numberWithCommas(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+
 function initVis() {
 
     
@@ -262,7 +266,7 @@ function updateVis() {
             bw_organic = new avoIcon({ iconUrl: 'assets/organicGrey.png' });
 
 
-        var tooltipText = `<div class = "tootTip"> <b>${name}</b> <br> <b>Average Price :</b> ${d3.format("$.2f")(averagePrice)} <br> <b>Total Volume :</b> ${volume} </div> `
+        var tooltipText = `<div class = "tootTip"> <b>${name}</b> <br> <b>Average Price :</b> ${d3.format("$.2f")(averagePrice)} <br> <b>Total Volume :</b> ${numberWithCommas(~~volume)} </div> `
         if (user_selection.color) {
             if (user_selection.type == "conventional") {
                 markersArray.push(L.marker([lat, long], { icon: conventional }).bindTooltip(tooltipText))
