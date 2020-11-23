@@ -87,7 +87,7 @@ input:checked + .slider:before {
 
 #legend {
   background-image: url('../assets/legend.png');
-  background-size: 450px 390px;
+  background-size: 300px 260px;
 background-repeat: no-repeat;
 background-position: center;
 background-clip: border-box;
