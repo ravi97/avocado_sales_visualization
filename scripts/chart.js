@@ -80,6 +80,8 @@ function sortByDateAscending(a, b) { return a - b; }
 
 function initVis() {
 
+    
+
     //time = d3.map(chart_data.avocado_data.map(d => d.Date));
     var time_Data = chart_data.avocado_data.filter(function (row) {
         return row.region == "Albany" && row.type == "conventional";
@@ -92,6 +94,9 @@ function initVis() {
     //time.range([0,168])
 
     map = L.map('map').setView([37.8, -96], 4)
+    L.easyButton('fa-home',function(btn,map){
+        map.setView([37.8, -96], 4);
+      },'Zoom To Home').addTo(map)
     console.log(d3.extent(chart_data.avocado_data, d => d["Total Volume"]))
 
     imgScaleAvgPrice.domain(d3.extent(chart_data.avocado_data, d => d.AveragePrice))
@@ -121,6 +126,7 @@ function initVis() {
             min: 0,
             max: 168,
             value: 0,
+            syncSlider: true,
             getValue: function (value) { return formatTime(time[value]) }
         }).addTo(map);
 
