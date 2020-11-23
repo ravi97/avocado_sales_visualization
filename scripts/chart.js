@@ -46,6 +46,15 @@ function style(feature) {
     };
 }
 
+function delay(delayInms) {
+    return new Promise(resolve => {
+      setTimeout(() => {
+        resolve(2);
+      }, delayInms);
+    });
+}
+var animation=false
+
 function highlightFeature(e) {
     //console.log("called")
     var layer = e.target;
@@ -101,7 +110,8 @@ function initVis() {
     L.easyButton('fa-home',function(btn,map){
         map.setView([37.8, -96], 4);
       },'Zoom To Home').addTo(map)
-    console.log(d3.extent(chart_data.avocado_data, d => d["Total Volume"]))
+
+    
 
     imgScaleAvgPrice.domain(d3.extent(chart_data.avocado_data, d => d.AveragePrice))
 
@@ -132,10 +142,46 @@ function initVis() {
             value: 0,
             syncSlider: true,
             getValue: function (value) { return formatTime(time[value]) }
-        }).addTo(map);
+        }).addTo(map)
+    slider2.value=0
     
-
-    //
+    //L.easyButton('fa-arrow-right',async function(btn,map){
+    //    while(slider2.value<slider2.options.max){
+    //        slider2._increment()
+    //        let delayres=await delay(100)
+    //    }
+    //},{position: 'topright'},'Animate').addTo(map)
+    L.easyButton({
+        id: 'animate',  // an id for the generated button
+        position: 'topright',      // inherited from L.Control -- the corner it goes in
+        type: 'replace',
+        leafletClasses: true,     // use leaflet classes to style the button?
+        states:[{                 // specify different icons and responses for your button
+          stateName: 'play',
+          onClick: async function(btn,map){
+                console.log('played')              
+                this.state('pause')
+                animation=true
+                while(slider2.value<slider2.options.max && animation){
+                    slider2._increment()
+                    let delayres=await delay(100)
+                }
+                
+            },
+          title: 'Play',
+          icon: 'fa-play'
+        },{                 // specify different icons and responses for your button
+            stateName: 'pause',
+            onClick: function(btn,map){
+                console.log('paused')
+                animation=false
+                this.state('play')
+              },
+            title: 'Pause',
+            icon: 'fa-pause'
+          }
+    ]
+      }).addTo(map);
     
     sidebar = L.control.sidebar('sidebar').addTo(map);
 
@@ -201,7 +247,7 @@ function updateVis() {
 
     if (user_selection.color) {
         if (user_selection.temp) {
-            color.range(["#FF5629", "#7A0013"]).domain(d3.extent(chart_data.climate_data, d => d.temp))
+            color.range(["#FFCC28", "#BE0000"]).domain(d3.extent(chart_data.climate_data, d => d.temp))
         }
         else {
             color.range(["#A8DFFF", "#0014A7"]).domain(d3.extent(chart_data.climate_data, d => d.rainfall))
@@ -307,7 +353,7 @@ function renderVis() {
             return `<div class = "toolTip"> <b>State: ${name}</b> <br> <b>Temperature :</b> ${attr} <sup>o</sup>C </div> `
         }
         else{
-            return `<div class = "toolTip"> <b>State: ${name}</b> <br> <b>Rainfall :</b> ${attr} mm/month </div> `
+            return `<div class = "toolTip"> <b>State: ${name}</b> <br> <b>Rainfall :</b> ${attr} mm </div> `
         }
         
     },{
