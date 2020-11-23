@@ -133,7 +133,10 @@ function initVis() {
             syncSlider: true,
             getValue: function (value) { return formatTime(time[value]) }
         }).addTo(map);
+    
 
+    //
+    
     sidebar = L.control.sidebar('sidebar').addTo(map);
 
 
@@ -298,6 +301,18 @@ function renderVis() {
     geojson = L.geoJson(chart_data.us_states, {
         style: style,
         onEachFeature: onEachFeature
+    }).bindTooltip(function(layer){
+        let name=layer.feature.properties.name
+        let attr=layer.feature.properties.density
+        if(user_selection.temp){
+            return `<div class = "tootTip"> <b>State: ${name}</b> <br> <b>Temperature :</b> ${attr} C </div> `
+        }
+        else{
+            return `<div class = "tootTip"> <b>State: ${name}</b> <br> <b>Rainfall :</b> ${attr} cm </div> `
+        }
+        
+    },{
+        sticky: true
     })
 
     map.removeLayer(heatMap)
