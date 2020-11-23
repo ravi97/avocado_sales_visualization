@@ -199,7 +199,6 @@ function updateOptions(checkbox) {
 
 function updateVis() {
 
-    //for now I have passed default value. once we create a slider, we need to pass those values
     if (user_selection.color) {
         if (user_selection.temp) {
             color.range(["#FF5629", "#7A0013"]).domain(d3.extent(chart_data.climate_data, d => d.temp))
@@ -269,7 +268,7 @@ function updateVis() {
             bw_organic = new avoIcon({ iconUrl: 'assets/organicGrey.png' });
 
 
-        var tooltipText = `<div class = "tootTip"> <b>${name}</b> <br> <b>Average Price :</b> ${d3.format("$.2f")(averagePrice)} <br> <b>Total Volume :</b> ${numberWithCommas(~~volume)} </div> `
+        var tooltipText = `<div class = "toolTip"> <b>${name}</b> <br> <b>Average Price :</b> ${d3.format("$.2f")(averagePrice)} <br> <b>Total Volume :</b> ${numberWithCommas(~~volume)} </div> `
         if (user_selection.color) {
             if (user_selection.type == "conventional") {
                 markersArray.push(L.marker([lat, long], { icon: conventional }).bindTooltip(tooltipText))
@@ -305,10 +304,10 @@ function renderVis() {
         let name=layer.feature.properties.name
         let attr=layer.feature.properties.density
         if(user_selection.temp){
-            return `<div class = "tootTip"> <b>State: ${name}</b> <br> <b>Temperature :</b> ${attr} C </div> `
+            return `<div class = "toolTip"> <b>State: ${name}</b> <br> <b>Temperature :</b> ${attr} <sup>o</sup>C </div> `
         }
         else{
-            return `<div class = "tootTip"> <b>State: ${name}</b> <br> <b>Rainfall :</b> ${attr} cm </div> `
+            return `<div class = "toolTip"> <b>State: ${name}</b> <br> <b>Rainfall :</b> ${attr} mm/month </div> `
         }
         
     },{
