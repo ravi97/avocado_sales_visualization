@@ -19,8 +19,8 @@ var user_selection = {
     temp: true
 }
 
-var imgScaleAvgPrice = d3.scaleLinear().range([16, 40]);
-var imgScaleTotVol = d3.scaleLinear().range([16, 40]);
+var imgScaleAvgPrice = d3.scaleLinear().range([16, 60]);
+var imgScaleTotVol = d3.scaleLinear().range([16, 60]);
 
 
 
@@ -158,7 +158,7 @@ function initVis() {
                 animation=true
                 while(slider2.value<slider2.options.max && animation){
                     slider2._increment()
-                    let delayres=await delay(100)
+                    let delayres=await delay(250)
                 }
                 this.state('play')
                 
