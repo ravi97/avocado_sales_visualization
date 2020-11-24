@@ -109,7 +109,7 @@ function initVis() {
     map = L.map('map').setView([37.8, -96], 4)
     L.easyButton('fa-home',function(btn,map){
         map.setView([37.8, -96], 4);
-      },'Zoom To Home').addTo(map)
+      },'Back To Home').addTo(map)
 
     
 
@@ -350,7 +350,7 @@ function renderVis() {
         let name=layer.feature.properties.name
         let attr=layer.feature.properties.density
         if(user_selection.temp){
-            return `<div class = "toolTip"> <b>State: ${name}</b> <br> <b>Temperature :</b> ${attr} <sup>o</sup>C </div> `
+            return `<div class = "toolTip"> <b>State: ${name}</b> <br> <b>Temperature :</b> ${attr} <sup>o</sup>F </div> `
         }
         else{
             return `<div class = "toolTip"> <b>State: ${name}</b> <br> <b>Rainfall :</b> ${attr} mm </div> `
