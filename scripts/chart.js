@@ -145,27 +145,22 @@ function initVis() {
         }).addTo(map)
     slider2.value=0
     
-    //L.easyButton('fa-arrow-right',async function(btn,map){
-    //    while(slider2.value<slider2.options.max){
-    //        slider2._increment()
-    //        let delayres=await delay(100)
-    //    }
-    //},{position: 'topright'},'Animate').addTo(map)
+
     L.easyButton({
-        id: 'animate',  // an id for the generated button
-        position: 'topright',      // inherited from L.Control -- the corner it goes in
+        id: 'animate',  
+        position: 'topright',      
         type: 'replace',
-        leafletClasses: true,     // use leaflet classes to style the button?
-        states:[{                 // specify different icons and responses for your button
+        leafletClasses: true,    
+        states:[{                
           stateName: 'play',
           onClick: async function(btn,map){
-                console.log('played')              
                 this.state('pause')
                 animation=true
                 while(slider2.value<slider2.options.max && animation){
                     slider2._increment()
                     let delayres=await delay(100)
                 }
+                this.state('play')
                 
             },
           title: 'Play',
@@ -173,7 +168,6 @@ function initVis() {
         },{                 // specify different icons and responses for your button
             stateName: 'pause',
             onClick: function(btn,map){
-                console.log('paused')
                 animation=false
                 this.state('play')
               },
