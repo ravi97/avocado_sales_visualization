@@ -104,3 +104,8 @@ height: 260px;
   background-image: url('../assets/legendGrey.png');
 }
 
+.leaflet-control{
+  background-color: white;
+  padding: 10;
+}
+

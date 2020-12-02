@@ -19,8 +19,8 @@ var user_selection = {
     temp: true
 }
 
-var imgScaleAvgPrice = d3.scaleLinear().range([16, 60]);
-var imgScaleTotVol = d3.scaleLinear().range([16, 60]);
+var imgScaleAvgPrice = d3.scaleLinear().range([16, 80]);
+var imgScaleTotVol = d3.scaleLinear().range([16, 80]);
 
 
 
@@ -110,7 +110,22 @@ function initVis() {
     L.easyButton('fa-home',function(btn,map){
         map.setView([37.8, -96], 4);
       },'Back To Home').addTo(map)
+    
+    L.Control.textbox = L.Control.extend({
+        onAdd: function(map) {
+            
+            var text = L.DomUtil.create('div');
+            text.id = "info_text";
+            text.innerHTML = "<strong>Avocado data Not available for the following states:</strong><br> Montana, North Dakota, South Dakota, Minnesota, Utah, Wisconsin<br>Iowa, Nebraska, Okhlahoma, Kansas, Mississippi, Alabama, South Carolina<br> West virginia, Delaware, Rhode Island, New Hampshire, Vermont, Alaska, Hawaii"
+            return text;
+        },
 
+        onRemove: function(map) {
+            // Nothing to do here
+        }
+	});
+	L.control.textbox = function(opts) { return new L.Control.textbox(opts);}
+    L.control.textbox({ position: 'bottomleft' }).addTo(map);
     
 
     imgScaleAvgPrice.domain(d3.extent(chart_data.avocado_data, d => d.AveragePrice))
